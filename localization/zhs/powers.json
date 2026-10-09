@@ -1,0 +1,106 @@
+{
+  "ACCOMPLICE1_POWER.title": "头号共犯",
+  "ACCOMPLICE1_POWER.description": "每当[gold]手牌[/gold]中加入1张[gold]伙伴[/gold]牌，获得[gold]格挡[/gold]。",
+  "ACCOMPLICE1_POWER.smartDescription": "每当[gold]手牌[/gold]中加入1张[gold]伙伴[/gold]牌，获得{Amount}点[gold]格挡[/gold]。",
+
+  "ADORABLE_ORIGINS_POWER.title": "可爱的诞生",
+  "ADORABLE_ORIGINS_POWER.description": "每回合前几次[gold]舞步[/gold]会触发2次。",
+  "ADORABLE_ORIGINS_POWER.smartDescription": "每回合前{Amount}次[gold]舞步[/gold]会触发2次。",
+
+  "A_DREAM_OF_A_HUNDRED_YEARS_POWER.title": "百年之梦",
+  "A_DREAM_OF_A_HUNDRED_YEARS_POWER.description": "获得和消耗[gold]虚耀[/gold]时，抽牌。",
+  "A_DREAM_OF_A_HUNDRED_YEARS_POWER.smartDescription": "获得和消耗[gold]虚耀[/gold]时，抽{Amount}张牌。",
+
+  "BLADE_RADIANCE_POWER.title": "淬锋映曜",
+  "BLADE_RADIANCE_POWER.description": "回合开始时，消耗[gold]虚耀[/gold]，获得能量。",
+  "BLADE_RADIANCE_POWER.smartDescription": "回合开始时，消耗[gold]虚耀[/gold]，获得{Amount}能量。",
+
+  "DANCE_TOGETHER_POWER.title": "共舞",
+  "DANCE_TOGETHER_POWER.description": "下一张攻击牌或技能牌会多打出多次",
+  "DANCE_TOGETHER_POWER.smartDescription": "下一张攻击牌或技能牌会多打出{Amount}次。",
+
+  "ENCHAINER_TRANSFORMATION_POWER.title": "结使化",
+  "ENCHAINER_TRANSFORMATION_POWER.description": "状态牌、诅咒牌进入[gold]弃牌堆[/gold]时会被消耗。",
+  "ENCHAINER_TRANSFORMATION_POWER.smartDescription": "状态牌、诅咒牌进入[gold]弃牌堆[/gold]时会被消耗。",
+
+  "GAIT_POWER.title": "步伐",
+  "GAIT_POWER.description": "本回合获得[gold]敏捷[/gold]。",
+  "GAIT_POWER.smartDescription": "本回合获得{Amount}层[gold]敏捷[/gold]。",
+
+  "INVITATION_TO_BLOOM_POWER.title": "芳菲之邀",
+  "INVITATION_TO_BLOOM_POWER.description": "每打出3张牌，获得4点[gold]格挡[/gold]。",
+  "INVITATION_TO_BLOOM_POWER.smartDescription": "每打出3张牌，获得4点[gold]格挡[/gold]。",
+
+  "KEEN_LIGHT_POWER.title": "锐芒",
+  "KEEN_LIGHT_POWER.description": "每有1[gold]虚耀[/gold]：减少所受伤害。",
+  "KEEN_LIGHT_POWER.smartDescription": "每有1[gold]虚耀[/gold]：减少{Amount}%所受伤害。",
+
+  "LETTER_POWER.title": "战术黑板",
+  "LETTER_POWER.description": "你的回合结束时，保留最左边的牌。",
+  "LETTER_POWER.smartDescription": "你的回合结束时，保留最左边的{Amount}张牌。",
+
+  "LUMIFLUX.title": "流明",
+  "LUMIFLUX.description": "获得[red]负面效果[/red]时，触发[purple]异化[/purple]。",
+  "LUMIFLUX.smartDescription": "获得[red]负面效果[/red]时，触发[purple]异化[/purple]。",
+
+  "LUMINIZE_POWER.title": "耀变",
+  "LUMINIZE_POWER.description": "给予[gold]流明[/gold]、触发[purple]异化[/purple]时，造成[purple]异常伤害[/purple]。",
+  "LUMINIZE_POWER.smartDescription": "给予[gold]流明[/gold]、触发[purple]异化[/purple]时，造成{Amount}点[purple]异常伤害[/purple]。",
+
+  "PETALS_AND_SLIVER_POWER.title": "花羽流银",
+  "PETALS_AND_SLIVER_POWER.description": "[gold]羽[/gold]的效果变为群体伤害。",
+  "PETALS_AND_SLIVER_POWER.smartDescription": "[gold]羽[/gold]的效果变为群体伤害。",
+
+  "PRISMATIC_POWER.title": "幻色",
+  "PRISMATIC_POWER.description": "本回合受到的[purple]异常伤害[/purple]增加。",
+  "PRISMATIC_POWER.smartDescription": "本回合受到的[purple]异常伤害[/purple]增加{Amount}%。",
+
+  "SHADOW_STASIS_POWER.title": "相变·滞影",
+  "SHADOW_STASIS_POWER.description": "下一次受到的伤害减少为1，击晕造成伤害的敌人，并造成伤害。",
+  "SHADOW_STASIS_POWER.smartDescription": "下一次受到的伤害减少为1，击晕造成伤害的敌人，并造成{Amount}点伤害。",
+
+  "STANCE_SHIFT_POWER.title": "转换姿态",
+  "STANCE_SHIFT_POWER.description": "回合结束后，所有[gold]保留[/gold]的[gold]手牌[/gold]下次打出的费用-1.",
+  "STANCE_SHIFT_POWER.smartDescription": "回合结束后，所有[gold]保留[/gold]的[gold]手牌[/gold]下次打出的费用-1.",
+
+  "STRAY_BIRDS_A_POWER.title": "飞鸟集A",
+  "STRAY_BIRDS_A_POWER.description": "[gold]羽[/gold]的攻击牌额外造成伤害。",
+  "STRAY_BIRDS_A_POWER.smartDescription": "[gold]羽[/gold]的攻击牌额外造成{Amount}点伤害。",
+
+  "STRAY_BIRDS_D_POWER.title": "飞鸟集D",
+  "STRAY_BIRDS_D_POWER.description": "[gold]羽[/gold]的技能牌额外获得[gold]格挡[/gold]。",
+  "STRAY_BIRDS_D_POWER.smartDescription": "[gold]羽[/gold]的技能牌额外获得{Amount}点[gold]格挡[/gold]。",
+
+  "TEMPORAL_LUMIFLUX_POWER.title": "时隙流明",
+  "TEMPORAL_LUMIFLUX_POWER.description": "你的回合开始时，给予所有敌人1层[gold]易伤[/gold]或[gold]脆弱[/gold]。",
+  "TEMPORAL_LUMIFLUX_POWER.smartDescription": "你的回合开始时，给予所有敌人{Amount}层[gold]易伤[/gold]或[gold]脆弱[/gold]。",
+
+  "THE_GHOSTS_POWER.title": "旧时代的幽灵p",
+  "THE_GHOSTS_POWER.description": "[gold]伙伴[/gold]获得[gold]相变时流[/gold]。",
+  "THE_GHOSTS_POWER.smartDescription": "[gold]伙伴[/gold]获得[gold]相变时流[/gold]。",
+
+  "THE_OLD_WORLD_POWER.title": "旧时代的幽灵d",
+  "THE_OLD_WORLD_POWER.description": "回合结束后触发[gold]保留[/gold]在[gold]手牌[/gold]中的[gold]舞步[/gold]",
+  "THE_OLD_WORLD_POWER.smartDescription": "回合结束后触发[gold]保留[/gold]在[gold]手牌[/gold]中的[gold]舞步[/gold]",
+
+  "THIS_IS_HOW_I_AM_POWER.title": "吾本如斯",
+  "THIS_IS_HOW_I_AM_POWER.description": "本回合造成[purple]异常伤害[/purple]时，获得[gold]格挡[/gold]。",
+  "THIS_IS_HOW_I_AM_POWER.smartDescription": "本回合造成[purple]异常伤害[/purple]时，获得{Amount}点[gold]格挡[/gold]。",
+
+  "VOIDFLARES.title": "虚耀",
+  "VOIDFLARES.description": "获得1[gold]虚耀[/gold]时，获得1[gold]异常精通[/gold]，反之亦然。",
+  "VOIDFLARES.smartDescription": "获得1[gold]虚耀[/gold]时，获得1[gold]异常精通[/gold]，反之亦然。",
+
+  "GOOD_MORNING_POWER.title": "早安，共犯小姐",
+  "GOOD_MORNING_POWER.description": "通过行动获得格挡时，为buff施加者给予等量格挡。",
+  "GOOD_MORNING_POWER.smartDescription": "通过行动获得格挡时，为buff施加者给予等量格挡。",
+
+  "LEGENDARY_M_P.title": "传说级的误解体质",
+  "LEGENDARY_M_P.description": "其他玩家获得负面效果时，将其转移到自己身上。每回合随机减少负面效果。",
+  "LEGENDARY_M_P.smartDescription": "其他玩家获得负面效果时，将其转移到自己身上。每回合随机减少{Amount}层负面效果。",
+
+  "MORNING_MILK_TEA_POWER.title": "早安奶茶",
+  "MORNING_MILK_TEA_POWER.description": "下个回合开始时额外抽牌。",
+  "MORNING_MILK_TEA_POWER.smartDescription": "下个回合开始时，额外抽{Cards}张牌。"
+
+}

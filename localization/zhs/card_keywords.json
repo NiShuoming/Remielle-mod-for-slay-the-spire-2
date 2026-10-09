@@ -1,0 +1,12 @@
+{
+
+  "REMIELLE-REFRINGE.title": "异化（属性异常）",
+  "REMIELLE-REFRINGE.description": "造成4[purple]异常伤害[/purple]，使触发[purple]异常[/purple]的负面效果增加1层。",
+  "REMIELLE-PHASEFLOW.title": "相变时流",
+  "REMIELLE-PHASEFLOW.description": "你的回合结束后，如果这张牌仍然在[gold]手牌[/gold]中，将会自动打出。",
+  "REMIELLE-DANCESTEP.title": "舞步",
+  "REMIELLE-DANCESTEP.description": "每次抽到[gold]手牌[/gold]中时，触发[gold]舞步[/gold]。",
+  "REMIELLE-FEATHER.title": "羽",
+  "REMIELLE-FEATHER.description": "打出时，对随机敌人造成2点伤害。回合中每打出1张[gold]羽[/gold]，伤害+1。"
+
+}

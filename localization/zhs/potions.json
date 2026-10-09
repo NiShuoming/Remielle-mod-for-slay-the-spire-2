@@ -1,0 +1,13 @@
+{
+  "REMIELLE-FEATHER_POTION.title": "羽翼药水",
+  "REMIELLE-FEATHER_POTION.description": "选择1张手牌，将这张牌的{Cards}张[gold]虚无[/gold]复制品加入[gold]手牌[/gold]。",
+  "REMIELLE-FEATHER_POTION.selectionScreenPrompt": "选择1张牌，将这张牌的2张[gold]虚无[/gold]复制品加入[gold]手牌[/gold]。",
+
+  "REMIELLE-MORNING_MILK_TEA.title": "早安奶茶",
+  "REMIELLE-MORNING_MILK_TEA.description": "抽{Cards}张牌，下{Turn}个回合开始时，额外抽{Cards}张牌。",
+
+  "REMIELLE-PHASE_FLOW_SERUM.title": "相变药水",
+  "REMIELLE-PHASE_FLOW_SERUM.description": "选择1张手牌，给予[gold]保留[/gold]。",
+  "REMIELLE-PHASE_FLOW_SERUM.selectionScreenPrompt": "选择1张牌，给予[gold]保留[/gold]。"
+
+}

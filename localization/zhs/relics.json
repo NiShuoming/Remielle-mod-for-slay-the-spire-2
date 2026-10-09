@@ -1,0 +1,40 @@
+{
+  "SEA_GLASS.REMIELLE-REMIELLE": "蕾米埃尔的支援",
+
+  "REMIELLE-TEMPORAL_PATTERNS.title": "时序",
+  "REMIELLE-TEMPORAL_PATTERNS.description": "触发[purple]异化[/purple]时，获得1层[gold]虚耀[/gold]。",
+  "REMIELLE-TEMPORAL_PATTERNS.flavor": "",
+
+  "REMIELLE-STILLED_COLORS.title": "万色滞行",
+  "REMIELLE-STILLED_COLORS.description": "触发[purple]异化[/purple]时，获得1层[gold]虚耀[/gold]。战斗开始时，获得3[gold]虚耀[/gold]。",
+  "REMIELLE-STILLED_COLORS.flavor": "",
+
+  "REMIELLE-NAIVE_OATH.title": "青涩誓言",
+  "REMIELLE-NAIVE_OATH.description": "战斗开始时，给予所有敌人{Lumiflux}[gold]流明[/gold]。",
+  "REMIELLE-NAIVE_OATH.flavor": "",
+
+  "REMIELLE-FALL_INTO_THE_NOISE.title": "倾落喧嚣",
+  "REMIELLE-FALL_INTO_THE_NOISE.description": "[gold]虚耀[/gold]提供的[gold]异常精通[/gold]翻倍。",
+  "REMIELLE-FALL_INTO_THE_NOISE.flavor": "",
+
+  "REMIELLE-THE_GARDEN_OF_DIVERGING_TIME.title": "时间分岔的花园",
+  "REMIELLE-THE_GARDEN_OF_DIVERGING_TIME.description": "每2个回合，在回合开始时抽1张牌。",
+  "REMIELLE-THE_GARDEN_OF_DIVERGING_TIME.flavor": "",
+
+  "REMIELLE-THE_LONG_GOODBYE.title": "漫长的告别",
+  "REMIELLE-THE_LONG_GOODBYE.description": "每回合第一张[gold]相变时流[/gold]牌会多打出1次。",
+  "REMIELLE-THE_LONG_GOODBYE.flavor": "",
+
+  "REMIELLE-TO_DRINK_FORGETFULNESS.title": "归客痛饮遗忘",
+  "REMIELLE-TO_DRINK_FORGETFULNESS.description": "回合结束时，对所有敌人造成手牌数的伤害。",
+  "REMIELLE-TO_DRINK_FORGETFULNESS.flavor": "",
+
+  "REMIELLE-LONE_FEATHER_ENDLESS_FLIGHT.title": "千度振翅的孑羽",
+  "REMIELLE-LONE_FEATHER_ENDLESS_FLIGHT.description": "回合开始时，[gold]羽[/gold]的层数+3",
+  "REMIELLE-LONE_FEATHER_ENDLESS_FLIGHT.flavor": "",
+
+  "REMIELLE-VOIDWING_PILGRIMAGE.title": "空翼巡礼",
+  "REMIELLE-VOIDWING_PILGRIMAGE.description": "[gold]虚耀[/gold]消耗为0时，会获得1能量。",
+  "REMIELLE-VOIDWING_PILGRIMAGE.flavor": ""
+
+}
