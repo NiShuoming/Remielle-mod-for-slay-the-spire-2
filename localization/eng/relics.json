@@ -1,0 +1,39 @@
+{
+  "SEA_GLASS.REMIELLE-REMIELLE": "Remielle's Support",
+
+  "REMIELLE-TEMPORAL_PATTERNS.title": "Temporal Patterns",
+  "REMIELLE-TEMPORAL_PATTERNS.description": "Whenever you trigger [purple]Refringe[/purple], gain 1 [gold]Voidflare[/gold].",
+  "REMIELLE-TEMPORAL_PATTERNS.flavor": "",
+
+  "REMIELLE-STILLED_COLORS.title": "Stilled Colors",
+  "REMIELLE-STILLED_COLORS.description": "Whenever you trigger [purple]Refringe[/purple], gain 1 [gold]Voidflare[/gold]. At the start of combat, gain 3 [gold]Voidflare[/gold].",
+  "REMIELLE-STILLED_COLORS.flavor": "",
+
+  "REMIELLE-NAIVE_OATH.title": "Naive Oath",
+  "REMIELLE-NAIVE_OATH.description": "At the start of combat, apply {Lumiflux} [gold]Lumiflux[/gold] to ALL enemies.",
+  "REMIELLE-NAIVE_OATH.flavor": "",
+
+  "REMIELLE-FALL_INTO_THE_NOISE.title": "Fall Into the Noise",
+  "REMIELLE-FALL_INTO_THE_NOISE.description": "[gold]Voidflare[/gold] provides double [gold]Anomaly Proficiency[/gold].",
+  "REMIELLE-FALL_INTO_THE_NOISE.flavor": "",
+
+  "REMIELLE-THE_GARDEN_OF_DIVERGING_TIME.title": "The Garden of Diverging Time",
+  "REMIELLE-THE_GARDEN_OF_DIVERGING_TIME.description": "Every 2 turns, draw 1 card at the start of your turn.",
+  "REMIELLE-THE_GARDEN_OF_DIVERGING_TIME.flavor": "",
+
+  "REMIELLE-THE_LONG_GOODBYE.title": "The Long Goodbye",
+  "REMIELLE-THE_LONG_GOODBYE.description": "The first [gold]Phase Flow[/gold] card you play each turn is played 1 additional time.",
+  "REMIELLE-THE_LONG_GOODBYE.flavor": "",
+
+  "REMIELLE-TO_DRINK_FORGETFULNESS.title": "To Drink Forgetfulness",
+  "REMIELLE-TO_DRINK_FORGETFULNESS.description": "At the end of your turn, deal damage to ALL enemies equal to the number of cards in your [gold]Hand[/gold].",
+  "REMIELLE-TO_DRINK_FORGETFULNESS.flavor": "",
+
+  "REMIELLE-LONE_FEATHER_ENDLESS_FLIGHT.title": "Lone Feather, Endless Flight",
+  "REMIELLE-LONE_FEATHER_ENDLESS_FLIGHT.description": "At the start of your turn, increase your [gold]Feather[/gold] count by 3.",
+  "REMIELLE-LONE_FEATHER_ENDLESS_FLIGHT.flavor": "",
+
+  "REMIELLE-VOIDWING_PILGRIMAGE.title": "Voidwing Pilgrimage",
+  "REMIELLE-VOIDWING_PILGRIMAGE.description": "Whenever your [gold]Voidflare[/gold] is consumed to 0, gain 1 Energy.",
+  "REMIELLE-VOIDWING_PILGRIMAGE.flavor": ""
+}

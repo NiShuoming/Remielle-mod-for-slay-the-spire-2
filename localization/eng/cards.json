@@ -1,0 +1,261 @@
+{
+  "REMIELLE-ATTRIBUTE_FLUX.title": "Attribute Flux",
+  "REMIELLE-ATTRIBUTE_FLUX.description": "Apply {Lumiflux:diff()} [gold]Lumiflux[/gold].",
+
+  "REMIELLE-AWAKENING_GLIMMER.title": "Awakening Glimmer",
+  "REMIELLE-AWAKENING_GLIMMER.description": "Gain {Block:diff()} [gold]Block[/gold].\nApply {Lumiflux:diff()} [gold]Lumiflux[/gold].",
+
+  "REMIELLE-ADORABLE_ORIGINS.title": "Adorable Origins",
+  "REMIELLE-ADORABLE_ORIGINS.description": "The first {Repeat:diff()} [gold]Dance Steps[/gold] each turn trigger 2 times.",
+
+  "REMIELLE-ACCOMPLICE1.title": "Accomplice #1",
+  "REMIELLE-ACCOMPLICE1.description": "Whenever a [gold]Partner[/gold] card is added to your [gold]Hand[/gold], gain {Acc:diff()} [gold]Block[/gold] and apply {Lumiflux:diff()} [gold]Lumiflux[/gold] to a random enemy.",
+
+  "REMIELLE-A_DREAM_OF_A_HUNDRED_YEARS.title": "A Dream of a Hundred Years",
+  "REMIELLE-A_DREAM_OF_A_HUNDRED_YEARS.description": "Whenever you Gain or Consume [gold]Voidflare[/gold], draw {Cards:diff()} {Cards:plural:card|cards}.",
+
+  "REMIELLE-BEAT_WINGS.title": "Beat Wings",
+  "REMIELLE-BEAT_WINGS.description": "Deal {Damage:diff()} [purple]Anomaly Damage[/purple] to ALL enemies.",
+
+  "REMIELLE-BED.title": "Remielle's Bed",
+  "REMIELLE-BED.description": "Gain {Energy:energyIcons()}, {Voidflares:diff()} [gold]Voidflare[/gold], and {AnomalyProficiency:diff()} [gold]Anomaly Proficiency[/gold].\nDraw {Cards:diff()} {Cards:plural:card|cards}.",
+
+  "REMIELLE-BLADE_RADIANCE.title": "Blade Radiance",
+  "REMIELLE-BLADE_RADIANCE.description": "At the start of your turn, consume {Voidflares:diff()} [gold]Voidflare[/gold] and gain {Energy:energyIcons()}.",
+
+  "REMIELLE-DANCE_INVITATION.title": "Dance Invitation",
+  "REMIELLE-DANCE_INVITATION.description": "Gain {Block:diff()} [gold]Block[/gold].\nApply {WeakPower:diff()} [gold]Weak[/gold].\n[gold]Dance Step:[/gold] Gain {Extra:diff()} [gold]Block[/gold].",
+
+  "REMIELLE-DRIFTING_AWAY.title": "Drifting Away",
+  "REMIELLE-DRIFTING_AWAY.description": "Deal {Damage:diff()} damage to ALL enemies.\nGain {AnomalyProficiency:diff()} [gold]Anomaly Proficiency[/gold] this turn.",
+
+  "REMIELLE-DANCE_TOGETHER.title": "Dance Together",
+  "REMIELLE-DANCE_TOGETHER.description": "Your next Attack or Skill card is played {Repeat:diff()} additional times.\n[gold]Dance Step:[/gold] Gain {AnomalyProficiency:diff()} [gold]Anomaly Proficiency[/gold] this turn.",
+
+  "REMIELLE-DAY_OF_SILENCE.title": "Day of Silence",
+  "REMIELLE-DAY_OF_SILENCE.description": "Apply {Lumiflux:diff()} [gold]Lumiflux[/gold].\nDeal damage equal to the target's total [red]Debuffs[/red] {Repeat:diff()} times.",
+
+  "REMIELLE-DAZZLING_CURTAIN_CALL.title": "Dazzling Curtain Call",
+  "REMIELLE-DAZZLING_CURTAIN_CALL.description": "Deal {Damage:diff()} [purple]Anomaly Damage[/purple] [blue]X[/blue] times.\nApply [gold]Lumiflux[/gold] equal to the Energy cost.",
+
+  "REMIELLE-ENCHAINER_TRANSFORMATION.title": "Enchainer Transformation",
+  "REMIELLE-ENCHAINER_TRANSFORMATION.description": "Add 1 [red]Decay[/red] into your [gold]Draw Pile[/gold].\nStatus and Curse cards are [gold]Exhausted[/gold] when they enter your [gold]Discard Pile[/gold].",
+
+  "REMIELLE-FLOATING_RADIANCE.title": "Floating Radiance",
+  "REMIELLE-FLOATING_RADIANCE.description": "Gain {Block:diff()} [gold]Block[/gold].\nApply {WeakPower:diff()} [gold]Weak[/gold]{IfUpgraded:show: and {FrailPower:diff()} [gold]Frail[/gold]|}.\nChoose {Cards:diff()} {Cards:plural:card|cards} in your [gold]Hand[/gold] to gain [gold]Retain[/gold] this turn.",
+
+  "REMIELLE-FLOATING_RADIANCE.selectionScreenPrompt": "Choose 1 card in your [gold]Hand[/gold] to gain [gold]Retain[/gold] this turn.",
+
+  "REMIELLE-FEATHER_BLADE.title": "Feather Blade",
+  "REMIELLE-FEATHER_BLADE.description": "Deal {Damage:diff()} damage.{IfUpgraded:show:\nTrigger 1 [gold]Feather[/gold] effect.|}",
+
+  "REMIELLE-FEATHERED_MURMURS.title": "Feathered Murmurs",
+  "REMIELLE-FEATHERED_MURMURS.description": "Gain {Block:diff()} [gold]Block[/gold].",
+
+  "REMIELLE-FEATHERGLOW_REBIRTH.title": "Featherglow Rebirth",
+  "REMIELLE-FEATHERGLOW_REBIRTH.description": "Gain {Block:diff()} [gold]Block[/gold].\nChoose {Cards:diff()} {Cards:plural:card|cards} in your [gold]Hand[/gold] to gain [gold]Retain[/gold] this turn.",
+
+  "REMIELLE-FEATHERGLOW_REBIRTH.selectionScreenPrompt": "Choose {Cards:diff()} {Cards:plural:card|cards} in your [gold]Hand[/gold] to gain [gold]Retain[/gold] this turn.",
+
+  "REMIELLE-FEATHER_STRIKE.title": "Feather Strike",
+  "REMIELLE-FEATHER_STRIKE.description": "Deal {Damage:diff()} damage.\nDraw {Cards:diff()} {Cards:plural:card|cards}. This card gains [gold]Retain[/gold] this turn.",
+
+  "REMIELLE-FALLING_DOWN.title": "Falling Down",
+  "REMIELLE-FALLING_DOWN.description": "Deal {Damage:diff()} damage.\nConsume {Voidflares:diff()} [gold]Voidflare[/gold]: Draw {Cards:diff()} cards, and [gold]Exhaust[/gold] 1 card in [gold]Hand[/gold].",
+  "REMIELLE-FALLING_DOWN.selectionScreenPrompt": "Choose 1 card in your [gold]Hand[/gold] to gain [gold]Exhaust[/gold].",
+
+  "REMIELLE-FORGET_ME_NOT.title": "Forget-Me-Not",
+  "REMIELLE-FORGET_ME_NOT.description": "Gain {Energy:energyIcons()}.\nChoose 1 card in your [gold]Hand[/gold] to gain [gold]Retain[/gold].",
+
+  "REMIELLE-FORGET_ME_NOT.selectionScreenPrompt": "Choose 1 card in your [gold]Hand[/gold] to gain [gold]Retain[/gold].",
+
+  "REMIELLE-FLEETING_DREAM_FOREVER_ETCHED.title": "Fleeting Dream, Forever Etched",
+  "REMIELLE-FLEETING_DREAM_FOREVER_ETCHED.description": "Deal {Damage:diff()} [purple]Anomaly Damage[/purple].\nIf you have drawn a card this turn, attack {Repeat:diff()} times.",
+
+  "REMIELLE-FLEETING_LIGHT.title": "Fleeting Light",
+  "REMIELLE-FLEETING_LIGHT.description": "Gain {CalculatedBlock:diff()} [gold]Block[/gold].\nGain 1 additional [gold]Block[/gold] for each card in your [gold]Hand[/gold].",
+
+  "REMIELLE-FLEETING_GRACE.title": "Fleeting Grace",
+  "REMIELLE-FLEETING_GRACE.description": "Deal {CalculatedDamage:diff()} [purple]Anomaly Damage[/purple].\nConsume [blue]X[/blue] [gold]Voidflare[/gold]: Deal {ExtraDamage:diff()} additional damage for each [gold]Voidflare[/gold] consumed.\nIf you have at least 3 [gold]Voidflare[/gold], deal {ExtraDamage:diff()} additional damage.",
+
+  "REMIELLE-FLOWER_FEATHER_DANCE.title": "Flower Feather Dance",
+  "REMIELLE-FLOWER_FEATHER_DANCE.description": "Deal {Damage:diff()} [purple]Anomaly Damage[/purple] to ALL enemies {Repeat:diff()} times.\n[gold]Dance Step:[/gold] Gain {Energy:energyIcons()}.",
+
+  "REMIELLE-GAIT.title": "Gait",
+  "REMIELLE-GAIT.description": "Gain {Block:diff()} [gold]Block[/gold] {Repeat:diff()} times.\nDraw {Cards:diff()} card.\n[gold]Dance Step:[/gold] Gain {DexterityPower:diff()} [gold]Dexterity[/gold] this turn.",
+
+  "REMIELLE-GLARE_BURST.title": "Phase·Glare Burst",
+  "REMIELLE-GLARE_BURST.description": "Deal {Damage:diff()} damage.\nApply {Lumiflux:diff()} [gold]Lumiflux[/gold].\nReturn this card to your [gold]Hand[/gold].",
+
+  "REMIELLE-HUE_CONVERGENCE.title": "Phase·Hue Convergence",
+  "REMIELLE-HUE_CONVERGENCE.description": "Deal {Damage:diff()} damage to ALL enemies.\nIf played by [gold]Phase Flow[/gold], deal {Increase:diff()} additional damage this combat.",
+
+  "REMIELLE-INTERWOVEN_DANCE_STEPS.title": "Interwoven Dance Steps",
+  "REMIELLE-INTERWOVEN_DANCE_STEPS.description": "Deal {Damage:diff()} damage.\nApply {Lumiflux:diff()} [gold]Lumiflux[/gold] to ALL enemies.\n[gold]Dance Step:[/gold] Upgrade {Cards:diff()} random {Cards:plural:card|cards} in your [gold]Hand[/gold].",
+
+  "REMIELLE-INVITATION_TO_BLOOM.title": "Invitation to Bloom",
+  "REMIELLE-INVITATION_TO_BLOOM.description": "Whenever you play {Cards:diff()} {Cards:plural:card|cards}, gain {Block:diff()} [gold]Block[/gold].",
+
+  "REMIELLE-INTO_THE_ABYSS_WITH_YOU.title": "Into the Abyss With You",
+  "REMIELLE-INTO_THE_ABYSS_WITH_YOU.description": "Replace any number of cards in your [gold]Hand[/gold].\nAll cards in your [gold]Hand[/gold] gain [gold]Retain[/gold] this turn.",
+
+  "REMIELLE-INTO_THE_ABYSS_WITH_YOU.selectionScreenPrompt": "Replace any number of cards in your [gold]Hand[/gold].",
+
+  "REMIELLE-JUST_LIKE_OLD_TIMES.title": "Just Like Old Times",
+  "REMIELLE-JUST_LIKE_OLD_TIMES.description": "Gain {Block:diff()} [gold]Block[/gold].\nChoose 1 card from [gold]Discard Pile[/gold] to [gold]Hand[/gold]{IfUpgraded:show:, it gains [gold]Retain[/gold] this turn|}.",
+
+  "REMIELLE-JUST_LIKE_OLD_TIMES.selectionScreenPrompt": "Choose 1 card from [gold]Discard Pile[/gold] to your [gold]Hand[/gold].",
+
+  "REMIELLE-KEEN_LIGHT.title": "Keen Light",
+  "REMIELLE-KEEN_LIGHT.description": "Gain {Block:diff()} [gold]Block[/gold].\nFor each [gold]Voidflare[/gold] you have: Reduce damage taken by {KeenLightPower:diff()}%.",
+
+  "REMIELLE-LEAP.title": "Leap",
+  "REMIELLE-LEAP.description": "Deal {Damage:diff()} damage.\nApply {Lumiflux:diff()} [gold]Lumiflux[/gold].\n[gold]Dance Step:[/gold] Draw {Cards:diff()} {Cards:plural:card|cards}.",
+
+  "REMIELLE-LUMINOUS_REFLECTION.title": "Luminous Reflection",
+  "REMIELLE-LUMINOUS_REFLECTION.description": "Deal {Damage:diff()} damage, add the [gold]Recorded[/gold] card to your [gold]Hand[/gold].\nConsume {Voidflares:diff()} [gold]Voidflare[/gold]: [gold]Upgrade[/gold] and [gold]Record[/gold] 1 card in [gold]Hand[/gold].",
+
+  "REMIELLE-LUMINOUS_REFLECTION.selectionScreenPrompt": "[gold]Upgrade[/gold] and [gold]Record[/gold] 1 [gold]Attack[/gold] card.",
+
+  "REMIELLE-LINGERING_WARMTH.title": "Lingering Warmth",
+  "REMIELLE-LINGERING_WARMTH.description": "Apply {WeakPower:diff()} [gold]Weak[/gold], {VulnerablePower:diff()} [gold]Vulnerable[/gold], and {Lumiflux:diff()} [gold]Lumiflux[/gold].",
+
+  "REMIELLE-LETTER.title": "Letter",
+  "REMIELLE-LETTER.description": "At the end of your turn, retain the leftmost {Cards:diff()} {Cards:plural:card|cards}.",
+
+  "REMIELLE-LUMINIZE.title": "Luminize",
+  "REMIELLE-LUMINIZE.description": "Whenever you apply [gold]Lumiflux[/gold] or trigger [purple]Refringe[/purple], deal {Damage:diff()} [purple]Anomaly Damage[/purple] and draw 1 card.",
+
+  "REMIELLE-MOONLIT_GAMES.title": "Moonlit Games",
+  "REMIELLE-MOONLIT_GAMES.description": "Deal {Damage:diff()} [purple]Anomaly Damage[/purple].\nApply {FrailPower:diff()} [gold]Frail[/gold].",
+
+  "REMIELLE-MIRRORED_SHADOW.title": "Mirrored Shadow",
+  "REMIELLE-MIRRORED_SHADOW.description": "Deal {Damage:diff()} [purple]Anomaly Damage[/purple].\nChoose {Cards:diff()} {Cards:plural:card|cards} in your [gold]Hand[/gold] to gain [gold]Retain[/gold] this turn.",
+
+  "REMIELLE-MIRRORED_SHADOW.selectionScreenPrompt": "Choose {Cards:diff()} {Cards:plural:card|cards} in your [gold]Hand[/gold] to gain [gold]Retain[/gold] this turn.",
+
+  "REMIELLE-MEMORIES_OF_THE_FORGOTTEN.title": "Memories of the Forgotten",
+  "REMIELLE-MEMORIES_OF_THE_FORGOTTEN.description": "Discard {Cards:diff()} random cards.\nChoose {Back:diff()} {Back:plural:card|cards} from [gold]Discard Pile[/gold] into your [gold]Hand[/gold].\n Choose 1 additional card for each card discarded this turn.",
+
+  "REMIELLE-MEMORIES_OF_THE_FORGOTTEN.selectionScreenPrompt": "Choose {Back:diff()} {Back:plural:card|cards} from your [gold]Discard Pile[/gold] to add to your [gold]Hand[/gold].",
+
+  "REMIELLE-MOONLIGHT_WHISPERS.title": "Moonlight Whispers",
+  "REMIELLE-MOONLIGHT_WHISPERS.description": "Next turn, gain {Energy:energyIcons()} and draw {Cards:diff()} additional {Cards:plural:card|cards}.",
+
+  "REMIELLE-ODE_TO_DAWN.title": "Ode to Dawn",
+  "REMIELLE-ODE_TO_DAWN.description": "Deal {Damage:diff()} damage to ALL enemies.\nApply {Lumiflux:diff()} [gold]Lumiflux[/gold].",
+
+  "REMIELLE-PLUME_SCATTER.title": "Phase·Plume Scatter",
+  "REMIELLE-PLUME_SCATTER.description": "Deal {Damage:diff()} [purple]Anomaly Damage[/purple] {Repeat:diff()} times.",
+
+  "REMIELLE-PLUME_SEVER.title": "Plume Sever",
+  "REMIELLE-PLUME_SEVER.description": "Deal {Damage:diff()} damage.\nWhen [purple]Refringe[/purple] is triggered: Return this card to your [gold]Hand[/gold].",
+
+  "REMIELLE-PAST_OF_THE_PAST.title": "Past of the Past",
+  "REMIELLE-PAST_OF_THE_PAST.description": "Play {Cards:diff()} random {Cards:plural:card|cards} from your [gold]Discard Pile[/gold].",
+
+  "REMIELLE-PRISMATIC.title": "Prismatic",
+  "REMIELLE-PRISMATIC.description": "The target takes {PrismaticPower:diff()}% more [purple]Anomaly Damage[/purple] this turn.",
+
+  "REMIELLE-PETALS_AND_SLIVER.title": "Petals and Sliver",
+  "REMIELLE-PETALS_AND_SLIVER.description": "[gold]Feather[/gold] effects hit All enemies.",
+
+  "REMIELLE-PROJECT_SUNSEEKER.title": "Project Sunseeker",
+  "REMIELLE-PROJECT_SUNSEEKER.description": "Discard any number of cards from your [gold]Hand[/gold].\nFor each card discarded, gain {Block:diff()} [gold]Block[/gold].",
+
+  "REMIELLE-PROJECT_SUNSEEKER.selectionScreenPrompt": "Discard any number of cards from your [gold]Hand[/gold].",
+
+  "REMIELLE-REMIELLE_STRIKE.title": "Strike",
+  "REMIELLE-REMIELLE_STRIKE.description": "Deal {Damage:diff()} damage.",
+
+  "REMIELLE-REFRINGE_COEFFICIENT.title": "Refringe Coefficient",
+  "REMIELLE-REFRINGE_COEFFICIENT.description": "Gain {AnomalyProficiency:diff()} [gold]Anomaly Proficiency[/gold] this turn.",
+
+  "REMIELLE-REMIELLE_DEFEND.title": "Defend",
+  "REMIELLE-REMIELLE_DEFEND.description": "Gain {Block:diff()} [gold]Block[/gold].",
+
+  "REMIELLE-RAINBOW_END.title": "Rainbow's End",
+  "REMIELLE-RAINBOW_END.description": "Deal {Damage:diff()} damage.\nConsume {Voidflares:diff()} [gold]Voidflare[/gold]: Apply {WeakPower:diff()} [gold]Weak[/gold] and {VulnerablePower:diff()} [gold]Vulnerable[/gold].",
+
+  "REMIELLE-RETREATING_LIGHT.title": "Retreating Light",
+  "REMIELLE-RETREATING_LIGHT.description": "Deal {Damage:diff()} [purple]Anomaly Damage[/purple] {Repeat:diff()} times.\nGain an equal amount of [gold]Block[/gold].",
+
+  "REMIELLE-RADIANT_TURN.title": "Radiant Turn",
+  "REMIELLE-RADIANT_TURN.description": "Play All [gold]Phase Flow[/gold] cards in your [gold]Hand[/gold].",
+
+  "REMIELLE-SLIVER_OF_LIGHT.title": "Sliver of Light",
+  "REMIELLE-SLIVER_OF_LIGHT.description": "Deal {Damage:diff()} damage.\nApply {Lumiflux:diff()} [gold]Lumiflux[/gold].",
+
+  "REMIELLE-SOLO_DANCE.title": "Solo Dance",
+  "REMIELLE-SOLO_DANCE.description": "Deal {Damage:diff()} damage.\n[gold]Discord[/gold] {Cards:diff()} {Cards:plural:card|cards} in your [gold]Hand[/gold].\n[gold]Dance Step:[/gold] Deal {Damage2:diff()} damage to ALL enemies.",
+
+  "REMIELLE-SOLO_DANCE.selectionScreenPrompt": "Choose {Cards:diff()} {Cards:plural:card|cards} in your [gold]Hand[/gold] to [gold]Discord[/gold].",
+
+  "REMIELLE-SPREAD_WINGS.title": "Spread Wings",
+  "REMIELLE-SPREAD_WINGS.description": "Draw {Cards:diff()} {Cards:plural:card|cards}.\nChoose 1 card in your [gold]Hand[/gold] to gain [gold]Retain[/gold] this turn.",
+
+  "REMIELLE-SPREAD_WINGS.selectionScreenPrompt": "Choose {Cards:diff()} {Cards:plural:card|cards} in your [gold]Hand[/gold] to gain [gold]Retain[/gold] this turn.",
+
+  "REMIELLE-SILENT_FALLEN_FEATHERS.title": "Silent Fallen Feathers",
+  "REMIELLE-SILENT_FALLEN_FEATHERS.description": "Choose {Cards:diff()} {Cards:plural:card|cards} in your [gold]Hand[/gold] and give them [gold]Feather[/gold] keyword.",
+
+  "REMIELLE-SILENT_FALLEN_FEATHERS.selectionScreenPrompt": "Choose {Cards:diff()} {Cards:plural:card|cards} in your [gold]Hand[/gold] to give [gold]Feather[/gold] keyword.",
+
+  "REMIELLE-STRAY_BIRDS.title": "Stray Birds",
+  "REMIELLE-STRAY_BIRDS.description": "[gold]Feather[/gold] Attack cards deal {Attack:diff()} additional damage, and [gold]Feather[/gold] Skill cards gain {Defend:diff()} additional [gold]Block[/gold].",
+
+  "REMIELLE-SEASHADE_PAS_SEUL.title": "Seashade Pas Seul",
+  "REMIELLE-SEASHADE_PAS_SEUL.description": "Gain {Block:diff()} [gold]Block[/gold].\nGain {Voidflares:diff()} [gold]Voidflare[/gold].\n[gold]Dance Step:[/gold] Apply {WeakPower:diff()} [gold]Weak[/gold] to a random enemy.",
+
+  "REMIELLE-SUNSET_LIGHTHOUSE.title": "Sunset Lighthouse",
+  "REMIELLE-SUNSET_LIGHTHOUSE.description": "For each type of [red]Debuff[/red] on the target, gain {AnomalyProficiency:diff()} [gold]Anomaly Proficiency[/gold].",
+
+  "REMIELLE-SHADOW_STASIS.title": "Phase·Shadow Stasis",
+  "REMIELLE-SHADOW_STASIS.description": "The next time you take damage, reduce it to 1, Stun the enemy that dealt damage, and deal {ShadowStasisPower:diff()} damage.",
+
+  "REMIELLE-STANCE_SHIFT.title": "Stance Shift",
+  "REMIELLE-STANCE_SHIFT.description": "At the end of your turn, all [gold]Retained[/gold] cards in your [gold]Hand[/gold] cost 1 less the next time they are played.",
+
+  "REMIELLE-TWISTED_OBSESSION.title": "Twisted Obsession",
+  "REMIELLE-TWISTED_OBSESSION.description": "Discard up to {Cards:diff()} {Cards:plural:card|cards} from your [gold]Hand[/gold]\nDraw 1 card.",
+
+  "REMIELLE-TWISTED_OBSESSION.selectionScreenPrompt": "Choose up to {Cards:diff()} {Cards:plural:card|cards} from your [gold]Hand[/gold] to discard.",
+
+  "REMIELLE-TURBID_PLUME.title": "Turbid Plume",
+  "REMIELLE-TURBID_PLUME.description": "Deal {Damage:diff()} damage, play {CalculatedRepeat:diff()} times.\nDeal 1 additional time for each [gold]Feather[/gold] card in your [gold]Hand[/gold].",
+
+  "REMIELLE-THE_UNREACHED_DESTINATION.title": "The Unreached Destination",
+  "REMIELLE-THE_UNREACHED_DESTINATION.description": "Choose 1 card from your [gold]Draw Pile[/gold], then add a [gold]Ethereal[/gold] copy of it to your [gold]Hand[/gold].",
+
+  "REMIELLE-THE_UNREACHED_DESTINATION.selectionScreenPrompt": "Choose 1 card from your [gold]Draw Pile[/gold] to add an [gold]Ethereal[/gold] copy to your [gold]Hand[/gold].",
+
+  "REMIELLE-TWO_TO_TANGO.title": "Two to Tango",
+  "REMIELLE-TWO_TO_TANGO.description": "Deal {CalculatedDamage:diff()} damage.\nFor each [gold]Dance Step[/gold] triggered this combat, deal {ExtraDamage:diff()} additional damage.\n[gold]Dance Step:[/gold] Trigger other [gold]Dance Step[/gold] in [gold]Hand[/gold]{IfUpgraded:show: 2 times|}.",
+
+  "REMIELLE-THE_GHOSTS_OF_THE_OLD_WORLD.title": "The Ghosts of the Old World",
+  "REMIELLE-THE_GHOSTS_OF_THE_OLD_WORLD.description": "[gold]Partner[/gold] cards gain [gold]Phase Flow[/gold]{IfUpgraded:show:, and at the end of your turn, trigger the [gold]Dance Step[/gold] in your [gold]Hand[/gold]|}.",
+
+  "REMIELLE-THAUMIEL.title": "Thaumiel",
+  "REMIELLE-THAUMIEL.description": "Deal {Damage:diff()} damage to a random enemy.\nThe first [gold]Phase Flow[/gold] you play each turn, play this card.",
+
+  "REMIELLE-THIS_IS_HOW_I_AM.title": "This Is How I Am",
+  "REMIELLE-THIS_IS_HOW_I_AM.description": "Whenever you deal [purple]Anomaly Damage[/purple] this turn, gain {Block:diff()} [gold]Block[/gold].",
+
+  "REMIELLE-TEMPORAL_LUMIFLUX.title": "Void Hunter·Temporal Lumiflux",
+  "REMIELLE-TEMPORAL_LUMIFLUX.description": "At the start of your turn, apply {Apply:diff()} [gold]Vulnerable[/gold] or [gold]Frail[/gold] to ALL enemies.",
+
+  "REMIELLE-UNCHOSEN_FUTURE.title": "Unchosen Future",
+  "REMIELLE-UNCHOSEN_FUTURE.description": "Deal {CalculatedDamage:diff()} damage.\nDeal {ExtraDamage:diff()} additional damage for each [gold]Keyword[/gold] on cards in your [gold]Hand[/gold].",
+
+  "REMIELLE-SUMMER_GIFT.title": "Summer Gift",
+  "REMIELLE-SUMMER_GIFT.description": "This turn, [gold]Retain[/gold] the hand of 1 player.\nApply {Block:diff()} [gold]Block[/gold].",
+
+  "REMIELLE-IDLE_ARCADE_MACHINE.title": "Idle Arcade Machine",
+  "REMIELLE-IDLE_ARCADE_MACHINE.description": "{IfUpgraded:show:Yourself and other players| Choose 1 player to} gain {Energy:energyIcons()} and draw {Cards:diff()} additional {Cards:plural:card|cards} at the start of next turn.",
+
+  "REMIELLE-LEGENDARY_MISUNDERSTANDING_MAGENT.title": "Legendary Misunderstanding Magent",
+  "REMIELLE-LEGENDARY_MISUNDERSTANDING_MAGENT.description": "Whenever another player gains a Debuff, transfer it to yourself.\nAt the start of your turn, randomly reduce 1 stack of your Debuffs.",
+
+  "REMIELLE-GOOD_MORNING_DEAR_PARTNER_IN_CRIME.title": "Good Morning, Dear Partner in Crime",
+  "REMIELLE-GOOD_MORNING_DEAR_PARTNER_IN_CRIME.description": "Choose 1 player. This turn, whenever either of you gains Block from a move, apply the same amount of Block to the other."
+}

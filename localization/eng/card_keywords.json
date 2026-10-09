@@ -1,0 +1,15 @@
+{
+  
+    "REMIELLE-REFRINGE.title": "Refringe (Attribute Anomaly)",
+    "REMIELLE-REFRINGE.description": "Deal 4 [purple]Anomaly Damage[/purple], and increase the [red]Debuff[/red] that triggered this [purple]Anomaly[/purple] by 1 stack.",
+
+    "REMIELLE-PHASEFLOW.title": "Phase Flow",
+    "REMIELLE-PHASEFLOW.description": "At the end of your turn, if this card is still in your [gold]Hand[/gold], play it automatically.",
+
+    "REMIELLE-DANCESTEP.title": "Dance Step",
+    "REMIELLE-DANCESTEP.description": "Whenever this card is drawn into your [gold]Hand[/gold], trigger its [gold]Dance Step[/gold].",
+
+    "REMIELLE-FEATHER.title": "Feather",
+    "REMIELLE-FEATHER.description": "When played, deal 2 damage to a random enemy. For each [gold]Feather[/gold] card played this turn, increase this damage by 1."
+  
+}

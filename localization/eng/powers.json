@@ -1,0 +1,105 @@
+{
+  "ACCOMPLICE1_POWER.title": "Accomplice #1",
+  "ACCOMPLICE1_POWER.description": "Whenever a [gold]Partner[/gold] card is added to your [gold]Hand[/gold], gain [gold]Block[/gold].",
+  "ACCOMPLICE1_POWER.smartDescription": "Whenever a [gold]Partner[/gold] card is added to your [gold]Hand[/gold], gain {Amount} [gold]Block[/gold].",
+
+  "ADORABLE_ORIGINS_POWER.title": "Adorable Origins",
+  "ADORABLE_ORIGINS_POWER.description": "The first few [gold]Dance Steps[/gold] each turn trigger 2 times.",
+  "ADORABLE_ORIGINS_POWER.smartDescription": "The first {Amount} [gold]Dance Steps[/gold] each turn trigger 2 times.",
+
+  "A_DREAM_OF_A_HUNDRED_YEARS_POWER.title": "A Dream of a Hundred Years",
+  "A_DREAM_OF_A_HUNDRED_YEARS_POWER.description": "Whenever you gain or consume [gold]Voidflare[/gold], draw card.",
+  "A_DREAM_OF_A_HUNDRED_YEARS_POWER.smartDescription": "Whenever you gain or consume [gold]Voidflare[/gold], draw {Amount} card.",
+
+  "BLADE_RADIANCE_POWER.title": "Blade Radiance",
+  "BLADE_RADIANCE_POWER.description": "At the start of your turn, consume [gold]Voidflare[/gold] and gain Energy.",
+  "BLADE_RADIANCE_POWER.smartDescription": "At the start of your turn, consume {Amount} [gold]Voidflare[/gold] and gain {Amount} Energy.",
+
+  "DANCE_TOGETHER_POWER.title": "Dance Together",
+  "DANCE_TOGETHER_POWER.description": "Your next Attack or Skill card play additional times.",
+  "DANCE_TOGETHER_POWER.smartDescription": "Your next Attack or Skill card play {Amount} additional times.",
+
+  "ENCHAINER_TRANSFORMATION_POWER.title": "Enchainer Transformation",
+  "ENCHAINER_TRANSFORMATION_POWER.description": "Status and Curse cards are [gold]Exhausted[/gold] when they enter your [gold]Discard Pile[/gold].",
+  "ENCHAINER_TRANSFORMATION_POWER.smartDescription": "Status and Curse cards are [gold]Exhausted[/gold] when they enter your [gold]Discard Pile[/gold].",
+
+  "GAIT_POWER.title": "Gait",
+  "GAIT_POWER.description": "Gain [gold]Dexterity[/gold] this turn.",
+  "GAIT_POWER.smartDescription": "Gain {Amount} [gold]Dexterity[/gold] this turn.",
+
+  "INVITATION_TO_BLOOM_POWER.title": "Invitation to Bloom",
+  "INVITATION_TO_BLOOM_POWER.description": "Whenever you play 3 cards, gain 4 [gold]Block[/gold].",
+  "INVITATION_TO_BLOOM_POWER.smartDescription": "Whenever you play 3 cards, gain 4 [gold]Block[/gold].",
+
+  "KEEN_LIGHT_POWER.title": "Keen Light",
+  "KEEN_LIGHT_POWER.description": "For each [gold]Voidflare[/gold] you have: reduce damage taken.",
+  "KEEN_LIGHT_POWER.smartDescription": "For each [gold]Voidflare[/gold] you have: reduce damage taken by {Amount}%.",
+
+  "LETTER_POWER.title": "Tactical Whiteboard",
+  "LETTER_POWER.description": "At the end of your turn, retain the leftmost cards.",
+  "LETTER_POWER.smartDescription": "At the end of your turn, retain the leftmost {Amount} cards.",
+
+  "LUMIFLUX.title": "Lumiflux",
+  "LUMIFLUX.description": "Whenever gain [red]Debuff[/red], trigger [purple]Anomaly[/purple].",
+  "LUMIFLUX.smartDescription": "Whenever gain [red]Debuff[/red], trigger [purple]Anomaly[/purple].",
+
+  "LUMINIZE_POWER.title": "Luminize",
+  "LUMINIZE_POWER.description": "Whenever you apply [gold]Lumiflux[/gold] or trigger [purple]Refringe[/purple], deal [purple]Anomaly Damage[/purple].",
+  "LUMINIZE_POWER.smartDescription": "Whenever you apply [gold]Lumiflux[/gold] or trigger [purple]Refringe[/purple], deal {Amount} [purple]Anomaly Damage[/purple].",
+
+  "PETALS_AND_SLIVER_POWER.title": "Petals and Sliver",
+  "PETALS_AND_SLIVER_POWER.description": "[gold]Feather[/gold] effects hit All enemies.",
+  "PETALS_AND_SLIVER_POWER.smartDescription": "[gold]Feather[/gold] effects hit All enemies.",
+
+  "PRISMATIC_POWER.title": "Prismatic",
+  "PRISMATIC_POWER.description": "Increase [purple]Anomaly Damage[/purple] taken this turn.",
+  "PRISMATIC_POWER.smartDescription": "Increase [purple]Anomaly Damage[/purple] taken by {Amount}% this turn.",
+
+  "SHADOW_STASIS_POWER.title": "Phase·Shadow Stasis",
+  "SHADOW_STASIS_POWER.description": "The next time you take damage, reduce it to 1, Stun the enemy that dealt damage, and deal damage.",
+  "SHADOW_STASIS_POWER.smartDescription": "The next time you take damage, reduce it to 1, Stun the enemy that dealt damage, and deal {Amount} damage.",
+
+  "STANCE_SHIFT_POWER.title": "Stance Shift",
+  "STANCE_SHIFT_POWER.description": "At the end of your turn, all [gold]Retained[/gold] cards in your [gold]Hand[/gold] cost 1 less the next time they are played.",
+  "STANCE_SHIFT_POWER.smartDescription": "At the end of your turn, all [gold]Retained[/gold] cards in your [gold]Hand[/gold] cost 1 less the next time they are played.",
+
+  "STRAY_BIRDS_A_POWER.title": "Stray Birds A",
+  "STRAY_BIRDS_A_POWER.description": "[gold]Feather[/gold] Attack cards deal additional damage.",
+  "STRAY_BIRDS_A_POWER.smartDescription": "[gold]Feather[/gold] Attack cards deal {Amount} additional damage.",
+
+  "STRAY_BIRDS_D_POWER.title": "Stray Birds D",
+  "STRAY_BIRDS_D_POWER.description": "[gold]Feather[/gold] Skill cards gain additional [gold]Block[/gold].",
+  "STRAY_BIRDS_D_POWER.smartDescription": "[gold]Feather[/gold] Skill cards gain {Amount} additional [gold]Block[/gold].",
+
+  "TEMPORAL_LUMIFLUX_POWER.title": "Temporal Lumiflux",
+  "TEMPORAL_LUMIFLUX_POWER.description": "At the start of your turn, apply 1 [gold]Vulnerable[/gold] or [gold]Frail[/gold] to ALL enemies.",
+  "TEMPORAL_LUMIFLUX_POWER.smartDescription": "At the start of your turn, apply {Amount} [gold]Vulnerable[/gold] or [gold]Frail[/gold] to ALL enemies.",
+
+  "THE_GHOSTS_POWER.title": "The Ghosts",
+  "THE_GHOSTS_POWER.description": "[gold]Partner[/gold] cards gain [gold]Phase Flow[/gold].",
+  "THE_GHOSTS_POWER.smartDescription": "[gold]Partner[/gold] cards gain [gold]Phase Flow[/gold].",
+
+  "THE_OLD_WORLD_POWER.title": "The Old World",
+  "THE_OLD_WORLD_POWER.description": "At the end of your turn, trigger the [gold]Dance Step[/gold] cards in your [gold]Hand[/gold].",
+  "THE_OLD_WORLD_POWER.smartDescription": "At the end of your turn, trigger the [gold]Dance Step[/gold] cards in your [gold]Hand[/gold].",
+
+  "THIS_IS_HOW_I_AM_POWER.title": "This Is How I Am",
+  "THIS_IS_HOW_I_AM_POWER.description": "Whenever you deal [purple]Anomaly Damage[/purple] this turn, gain [gold]Block[/gold].",
+  "THIS_IS_HOW_I_AM_POWER.smartDescription": "Whenever you deal [purple]Anomaly Damage[/purple] this turn, gain {Amount} [gold]Block[/gold].",
+
+  "VOIDFLARES.title": "Voidflare",
+  "VOIDFLARES.description": "Whenever you gain 1 [gold]Voidflare[/gold], gain 1 [gold]Anomaly Proficiency[/gold], and vice versa.",
+  "VOIDFLARES.smartDescription": "Whenever you gain 1 [gold]Voidflare[/gold], gain 1 [gold]Anomaly Proficiency[/gold], and vice versa.",
+
+  "GOOD_MORNING_POWER.title": "Good Morning, Dear Partner in Crime",
+  "GOOD_MORNING_POWER.description": "Whenever you gain Block from a move, apply the same amount of Block to the buff's giver.",
+  "GOOD_MORNING_POWER.smartDescription": "Whenever you gain Block from a move, apply the same amount of Block to the buff's giver.",
+
+  "LEGENDARY_M_P.title": "Legendary Misunderstanding Magent",
+  "LEGENDARY_M_P.description": "Whenever another player gains a Debuff, transfer it to yourself. Each turn, randomly reduce your Debuffs.",
+  "LEGENDARY_M_P.smartDescription": "Whenever another player gains a Debuff, transfer it to yourself. Each turn, randomly reduce your Debuffs by {Amount} stack.",
+
+  "MORNING_MILK_TEA_POWER.title": "Morning Milk Tea",
+  "MORNING_MILK_TEA_POWER.description": "At the start of your next turn, draw additional cards.",
+  "MORNING_MILK_TEA_POWER.smartDescription": "At the start of your next turn, draw {Cards} additional {Cards:plural:card|cards}."
+}

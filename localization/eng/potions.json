@@ -1,0 +1,12 @@
+{
+  "REMIELLE-FEATHER_POTION.title": "Feather Potion",
+  "REMIELLE-FEATHER_POTION.description": "Choose 1 card in [gold]Hand[/gold], add {Cards} [gold]Ethereal[/gold] copies of it to [gold]Hand[/gold].",
+  "REMIELLE-FEATHER_POTION.selectionScreenPrompt": "Choose 1 card. Add 2 [gold]Ethereal[/gold] copies of it to your [gold]Hand[/gold].",
+
+  "REMIELLE-MORNING_MILK_TEA.title": "Morning Milk Tea",
+  "REMIELLE-MORNING_MILK_TEA.description": "Draw {Cards} {Cards:plural:card|cards}. At the start of your next {Turn} turns, draw {Cards} additional {Cards:plural:card|cards}.",
+
+  "REMIELLE-PHASE_FLOW_SERUM.title": "Phase Flow Serum",
+  "REMIELLE-PHASE_FLOW_SERUM.description": "Choose 1 card in your [gold]Hand[/gold] and give it [gold]Retain[/gold].",
+  "REMIELLE-PHASE_FLOW_SERUM.selectionScreenPrompt": "Choose 1 card to give [gold]Retain[/gold]."
+}
