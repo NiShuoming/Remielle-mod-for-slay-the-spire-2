@@ -22,7 +22,6 @@ namespace Remielle.Other
                 megaSprite.GetAnimationState().SetAnimation("glow", loop: true, 1);
             }
             OnEnergyChanged(3, 0);
-
         }
 
         protected override void Reflash()
