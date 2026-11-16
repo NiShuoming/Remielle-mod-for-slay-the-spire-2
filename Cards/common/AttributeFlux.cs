@@ -15,14 +15,14 @@ using System.Threading.Tasks;
 namespace Remielle.Cards
 {
     /// <summary>
-    /// 属性流变 0 【消耗】给予3（5）【流明】
+    /// 属性流变 0 【消耗】给予2（3）【流明】
     /// </summary>
     public class AttributeFlux:RemielleCardModel
     {
         public AttributeFlux() : base(0, CardType.Skill, CardRarity.Common, TargetType.AnyEnemy) { }
 
         protected override IEnumerable<DynamicVar> CanonicalVars => 
-            [new PowerVar<Lumiflux>(3)];
+            [new PowerVar<Lumiflux>(2)];
 
         protected override IEnumerable<IHoverTip> ExtraHoverTips => 
             [HoverTipFactory.FromPower<Lumiflux>()];

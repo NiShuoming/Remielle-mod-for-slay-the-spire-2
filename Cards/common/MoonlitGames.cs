@@ -8,6 +8,7 @@ using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.ValueProps;
 using Remielle.Main;
 using Remielle.Model;
+using Remielle.Other;
 using Remielle.Power;
 using System;
 using System.Collections.Generic;
@@ -44,8 +45,10 @@ namespace Remielle.Cards
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {
             ArgumentNullException.ThrowIfNull(cardPlay.Target, "cardPlay.Target");
+            ReVoiceManager.PlayAttackVoice();
             await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this, cardPlay).Targeting(cardPlay.Target)
-                .WithHitFx("vfx/vfx_attack_slash").WithValueProp(ZZZValueProp.Anomaly|ValueProp.Move)
+                .WithHitFx("vfx/vfx_attack_slash", tmpSfx: "攻击音效.mp3")
+                .WithValueProp(ZZZValueProp.Anomaly|ValueProp.Move)
                 .Execute(choiceContext);
 
             await PowerCmd.Apply<FrailPower>(choiceContext, cardPlay.Target, 
