@@ -13,21 +13,18 @@ using System.Threading.Tasks;
 namespace Remielle.Cards
 {
     /// <summary>
-    /// （3）转换姿态 虚无=》【】 回合结束后，如果还在手牌中，下次打出的费用-1
+    /// （3=2）转换姿态  回合结束后，如果还在手牌中，下次打出的费用-1
     /// </summary>
     public class StanceShift:RemielleCardModel
     {
         public StanceShift() : base(3,CardType.Power,CardRarity.Rare,TargetType.Self) { }
-
-        public override IEnumerable<CardKeyword> CanonicalKeywords => 
-            [CardKeyword.Ethereal];
 
         protected override IEnumerable<IHoverTip> ExtraHoverTips => 
             [HoverTipFactory.FromKeyword(CardKeyword.Retain)];
 
         protected override void OnUpgrade()
         {
-            RemoveKeyword(CardKeyword.Ethereal);
+            EnergyCost.UpgradeBy(-1);
         }
 
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)

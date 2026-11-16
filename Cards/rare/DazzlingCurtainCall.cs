@@ -6,6 +6,7 @@ using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.ValueProps;
 using Remielle.Model;
+using Remielle.Other;
 using Remielle.Power;
 using System;
 using System.Collections.Generic;
@@ -15,7 +16,7 @@ using ZZZLib;
 namespace Remielle.Cards
 {
     /// <summary>
-    /// （x）缭乱终幕 【终结技】造成X次12(15【异常伤害】，给予能量消耗量的【流明】
+    /// （x）缭乱终幕 【终结技】造成X次11(14【异常伤害】，给予能量消耗量的【流明】
     /// </summary>
     public class DazzlingCurtainCall:RemielleCardModel
     {
@@ -24,7 +25,7 @@ namespace Remielle.Cards
         protected override bool HasEnergyCostX => true;
 
         protected override IEnumerable<DynamicVar> CanonicalVars => 
-            [new DamageVar(12,ValueProp.Move | ZZZValueProp.Anomaly)];
+            [new DamageVar(11,ValueProp.Move | ZZZValueProp.Anomaly)];
 
         public override IEnumerable<CardKeyword> CanonicalKeywords => 
             [ZZZKeyWord.Ultimate];
@@ -41,10 +42,11 @@ namespace Remielle.Cards
             ArgumentNullException.ThrowIfNull(cardPlay.Target, "cardPlay.Target");
             int a = EnergyCost.CapturedXValue;
             int num = ResolveEnergyXValue();
+            ReVoiceManager.PlayBigSkillVoice();
             await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue)
                 .WithHitCount(num).FromCard(this, cardPlay).WithValueProp(ValueProp.Move|ZZZValueProp.Anomaly)
                 .Targeting(cardPlay.Target)
-                .WithHitFx("vfx/vfx_attack_slash")
+                .WithHitFx("vfx/vfx_attack_slash", tmpSfx: "攻击音效.mp3")
                 .Execute(choiceContext);
             if (cardPlay.Target.IsAlive)
             {

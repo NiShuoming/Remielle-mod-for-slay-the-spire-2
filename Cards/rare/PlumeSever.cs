@@ -7,6 +7,7 @@ using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.ValueProps;
 using Remielle.Main;
 using Remielle.Model;
+using Remielle.Other;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,8 +41,9 @@ namespace Remielle.Cards
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {
             ArgumentNullException.ThrowIfNull(cardPlay.Target, "cardPlay.Target");
+            ReVoiceManager.PlayAttackVoice();
             await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this, cardPlay).Targeting(cardPlay.Target)
-                .WithHitFx("vfx/vfx_attack_slash")
+                .WithHitFx("vfx/vfx_attack_slash", tmpSfx: "攻击音效.mp3")
                 .Execute(choiceContext);
         }
 

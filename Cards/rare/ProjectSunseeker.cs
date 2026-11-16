@@ -15,14 +15,14 @@ using System.Threading.Tasks;
 namespace Remielle.Cards
 {
     /// <summary>
-    /// （1）逐日计划 丢弃任意张手牌，获得7 9格挡，每丢弃1张，多获得1次
+    /// （1）逐日计划 丢弃任意张手牌，获得6 8格挡，每丢弃1张，多获得1次
     /// </summary>
     public class ProjectSunseeker:RemielleCardModel
     {
         public ProjectSunseeker() : base(1, CardType.Skill, CardRarity.Rare, TargetType.Self) { }
 
         protected override IEnumerable<DynamicVar> CanonicalVars => 
-            [new BlockVar(7,ValueProp.Move), new CardsVar(9)];
+            [new BlockVar(6,ValueProp.Move), new CardsVar(9)];
 
         protected override void OnUpgrade()
         {

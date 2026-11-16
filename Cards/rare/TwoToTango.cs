@@ -9,6 +9,7 @@ using MegaCrit.Sts2.Core.ValueProps;
 using Remielle.CustomListener;
 using Remielle.Main;
 using Remielle.Model;
+using Remielle.Other;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,14 +20,14 @@ using ZZZLib.Cmds;
 namespace Remielle.Cards
 {
     /// <summary>
-    /// （1）TwoToTango  【舞步】造成6(9)伤害，战斗中每次触发【舞步】，伤害+1。舞步：触发其他手牌的【舞步】=》2次
+    /// （1）TwoToTango  【舞步】造成9(12)伤害，战斗中每次触发【舞步】，伤害+1。舞步：触发其他手牌的【舞步】=》2次
     /// </summary>
     public class TwoToTango:RemielleCardModel,IDanceStep
     {
         public TwoToTango() : base(1, CardType.Attack, CardRarity.Rare, TargetType.AnyEnemy) { }
 
         protected override IEnumerable<DynamicVar> CanonicalVars => 
-            [new CalculationBaseVar(6), new ExtraDamageVar(1),
+            [new CalculationBaseVar(9), new ExtraDamageVar(1),
             new CalculatedDamageVar(ValueProp.Move).WithMultiplier((card,_)=>
             { var listen = (DanceStepListener)(card.Owner.Creature.
                CombatState.IterateHookListeners().First(a=>a is DanceStepListener));
@@ -46,9 +47,10 @@ namespace Remielle.Cards
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {
             ArgumentNullException.ThrowIfNull(cardPlay.Target, "cardPlay.Target");
+            ReVoiceManager.PlayAttackVoice();
             await DamageCmd.Attack(base.DynamicVars.CalculatedDamage)
                 .FromCard(this, cardPlay).Targeting(cardPlay.Target)
-                .WithHitFx("vfx/vfx_attack_slash")
+                .WithHitFx("vfx/vfx_attack_slash", tmpSfx: "攻击音效.mp3")
                 .Execute(choiceContext);
         }
 
