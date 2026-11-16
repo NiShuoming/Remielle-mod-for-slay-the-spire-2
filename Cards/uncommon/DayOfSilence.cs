@@ -8,6 +8,7 @@ using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.ValueProps;
 using Remielle.Model;
+using Remielle.Other;
 using Remielle.Power;
 using System;
 using System.Collections.Generic;
@@ -18,14 +19,14 @@ using System.Threading.Tasks;
 namespace Remielle.Cards
 {
     /// <summary>
-    /// （3）给予2（4）【流明】，造成目标debuff总量的伤害2次。
+    /// （3、2）给予2（4）【流明】，造成目标debuff总量的伤害3次。
     /// </summary>
     public class DayOfSilence : RemielleCardModel
     {
         public DayOfSilence() : base(3, CardType.Attack, CardRarity.Uncommon, TargetType.AnyEnemy) { }
 
         protected override IEnumerable<DynamicVar> CanonicalVars => [
-            new PowerVar<Lumiflux>(2), new RepeatVar(2),
+            new PowerVar<Lumiflux>(2), new RepeatVar(3),
             new CalculationBaseVar(0), new ExtraDamageVar(1),
             new CalculatedDamageVar(ValueProp.Move).WithMultiplier(
                 (card,target)=>{if(target==null)return 0;
@@ -49,11 +50,12 @@ namespace Remielle.Cards
             ArgumentNullException.ThrowIfNull(cardPlay.Target, "cardPlay.Target");
             await PowerCmd.Apply<Lumiflux>(choiceContext, cardPlay.Target,
                 DynamicVars.Power<Lumiflux>().BaseValue, Owner.Creature, this);
+            ReVoiceManager.PlayAttackVoice();
 
             await DamageCmd.Attack(DynamicVars.CalculatedDamage)
                 .WithHitCount(DynamicVars.Repeat.IntValue)
                 .FromCard(this, cardPlay).Targeting(cardPlay.Target)
-                .WithHitFx("vfx/vfx_attack_slash")
+                .WithHitFx("vfx/vfx_attack_slash", tmpSfx: "攻击音效.mp3")
                 .Execute(choiceContext);
         }
     }

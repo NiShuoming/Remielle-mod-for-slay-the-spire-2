@@ -7,6 +7,7 @@ using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.ValueProps;
 using Remielle.Model;
+using Remielle.Other;
 using Remielle.Power;
 using System;
 using System.Collections.Generic;
@@ -47,9 +48,12 @@ namespace Remielle.Cards
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {
             int n = ZZZCmd.GetSecondEnergy(Owner).Energy2;
+            ReVoiceManager.PlayJinghongVoice();
+
             await DamageCmd.Attack(base.DynamicVars.CalculatedDamage)
                     .FromCard(this, cardPlay).WithValueProp(ValueProp.Move | ZZZValueProp.Anomaly)
-                    .WithHitFx("vfx/vfx_attack_slash").Targeting(cardPlay.Target)
+                    .WithHitFx("vfx/vfx_attack_slash", tmpSfx: "攻击音效.mp3")
+                    .Targeting(cardPlay.Target)
                     .Execute(choiceContext);
             await ZZZCmd.AddSecondEnergy(Owner, -n, Owner.Creature, this);
         }

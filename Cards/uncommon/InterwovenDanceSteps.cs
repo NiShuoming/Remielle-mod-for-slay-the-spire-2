@@ -8,6 +8,7 @@ using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.ValueProps;
 using Remielle.Main;
 using Remielle.Model;
+using Remielle.Other;
 using Remielle.Power;
 using System;
 using System.Collections.Generic;
@@ -41,8 +42,9 @@ namespace Remielle.Cards
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {
             ArgumentNullException.ThrowIfNull(cardPlay.Target, "cardPlay.Target");
+            ReVoiceManager.PlayAttackVoice();
             await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this, cardPlay).Targeting(cardPlay.Target)
-                .WithHitFx("vfx/vfx_attack_slash")
+                .WithHitFx("vfx/vfx_attack_slash", tmpSfx: "攻击音效.mp3")
                 .Execute(choiceContext);
             await PowerCmd.Apply<Lumiflux>(choiceContext, CombatState.HittableEnemies,
                 DynamicVars.Power<Lumiflux>().BaseValue, Owner.Creature, this);
@@ -61,6 +63,7 @@ namespace Remielle.Cards
                 {
                     await Cmd.Wait(0.1f);
                     CardCmd.Upgrade(card);
+
                 }
             }
         }
