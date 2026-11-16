@@ -15,7 +15,7 @@
   "REMIELLE-BED.title": "蕾米埃尔的床",
   "REMIELLE-BED.description": "获得{Energy:energyIcons()}、{Voidflares:diff()}[gold]虚耀[/gold]、{AnomalyProficiency:diff()}层[gold]异常精通[/gold]。\n抽{Cards:diff()}张牌。",
   "REMIELLE-BLADE_RADIANCE.title": "淬锋映曜",
-  "REMIELLE-BLADE_RADIANCE.description": "你的回合开始时，消耗{Voidflares:diff()}[gold]虚耀[/gold]，获得{Energy:energyIcons()}。",
+  "REMIELLE-BLADE_RADIANCE.description": "你的回合开始时，消耗{Voidflares:diff()}[gold]虚耀[/gold]，获得{Energy:energyIcons()}、抽{Cards:diff()}张牌。",
 
   "REMIELLE-DANCE_INVITATION.title": "邀舞",
   "REMIELLE-DANCE_INVITATION.description": "获得{Block:diff()}点[gold]格挡[/gold]。\n给予{WeakPower:diff()}层[gold]虚弱[/gold]。\n[gold]舞步：[/gold]获得{Extra:diff()}点[gold]格挡[/gold]。",

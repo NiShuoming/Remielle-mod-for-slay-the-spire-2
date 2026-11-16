@@ -1,0 +1,246 @@
+{
+  "REMIELLE-ATTRIBUTE_FLUX.title": "属性流変",
+  "REMIELLE-ATTRIBUTE_FLUX.description": "{Lumiflux:diff()}層の[gold]流明[/gold]を付与する。",
+
+  "REMIELLE-AWAKENING_GLIMMER.title": "目覚めの残光",
+  "REMIELLE-AWAKENING_GLIMMER.description": "{Block:diff()}点[gold]ブロック[/gold]を獲得する。\n{Lumiflux:diff()}層の[gold]流明[/gold]を付与する。",
+
+  "REMIELLE-ADORABLE_ORIGINS.title": "愛らしき誕生",
+  "REMIELLE-ADORABLE_ORIGINS.description": "毎ターン最初の{Repeat:diff()}回の[gold]ステップ[/gold]が2回誘発する。",
+
+  "REMIELLE-ACCOMPLICE1.title": "一番の共犯者",
+  "REMIELLE-ACCOMPLICE1.description": "[gold]手札[/gold]に[gold]パートナー[/gold]カードが1枚加わるたび、{Acc:diff()}点[gold]ブロック[/gold]を獲得し、ランダムな敵に{Lumiflux:diff()}[gold]流明[/gold]を付与する。",
+
+  "REMIELLE-A_DREAM_OF_A_HUNDRED_YEARS.title": "百年の夢",
+  "REMIELLE-A_DREAM_OF_A_HUNDRED_YEARS.description": "[gold]虚光[/gold]を獲得または消費した時、カードを{Cards:diff()}枚引く。",
+
+  "REMIELLE-BEAT_WINGS.title": "振翅",
+  "REMIELLE-BEAT_WINGS.description": "すべての敵に{Damage:diff()}点[purple]流明属性ダメージ[/purple]を与える。",
+
+  "REMIELLE-BED.title": "レミエルのベッド",
+  "REMIELLE-BED.description": "{Energy:energyIcons()}、{Voidflares:diff()}[gold]虚光[/gold]、{AnomalyProficiency:diff()}層の[gold]異常マスタリー[/gold]を獲得する。\nカードを{Cards:diff()}枚引く。",
+
+  "REMIELLE-BLADE_RADIANCE.title": "研鑽せし剣の反照",
+  "REMIELLE-BLADE_RADIANCE.description": "自分のターン開始時、{Voidflares:diff()}[gold]虚光[/gold]を消費し、{Energy:energyIcons()}を獲得する、カードを{Cards:diff()}枚引く。",
+
+  "REMIELLE-DANCE_INVITATION.title": "誘舞",
+  "REMIELLE-DANCE_INVITATION.description": "{Block:diff()}点[gold]ブロック[/gold]を獲得する。\n{WeakPower:diff()}層の[gold]脱力[/gold]を付与する。\n[gold]ステップ：[/gold]{Extra:diff()}点[gold]ブロック[/gold]を獲得する。",
+
+  "REMIELLE-DRIFTING_AWAY.title": "漂散",
+  "REMIELLE-DRIFTING_AWAY.description": "すべての敵に{Damage:diff()}点ダメージを与える。\nこのターン中、{AnomalyProficiency:diff()}層の[gold]異常マスタリー[/gold]を獲得する。",
+
+  "REMIELLE-DANCE_TOGETHER.title": "共舞",
+  "REMIELLE-DANCE_TOGETHER.description": "次のアタックカードまたはスキルカードが追加で{Repeat:diff()}回プレイされる。\n[gold]ステップ[/gold]：このターン中、{AnomalyProficiency:diff()}層の[gold]異常マスタリー[/gold]を獲得する。",
+
+  "REMIELLE-DAY_OF_SILENCE.title": "静寂の日",
+  "REMIELLE-DAY_OF_SILENCE.description": "{Lumiflux:diff()}層の[gold]流明[/gold]を付与する。\n対象の[red]デバフ[/red]合計値分のダメージを{Repeat:diff()}回与える。",
+
+  "REMIELLE-DAZZLING_CURTAIN_CALL.title": "繚乱のフィナーレ",
+  "REMIELLE-DAZZLING_CURTAIN_CALL.description": "{Damage:diff()}点[purple]流明属性ダメージ[/purple]を[blue]X[/blue]回与える。\n消費したエネルギーの[gold]流明[/gold]を付与する。",
+
+  "REMIELLE-ENCHAINER_TRANSFORMATION.title": "結使化",
+  "REMIELLE-ENCHAINER_TRANSFORMATION.description": "[gold]山札[/gold]に[red]腐朽[/red]を1枚加える。\n状態異常カードと呪いカードが[gold]捨て札[/gold]に置かれた時、それらを[gold]廃棄[/gold]する。",
+
+  "REMIELLE-FLOATING_RADIANCE.title": "浮光",
+  "REMIELLE-FLOATING_RADIANCE.description": "{Block:diff()}点[gold]ブロック[/gold]を獲得する。\n{WeakPower:diff()}層の[gold]脱力[/gold]{IfUpgraded:show:、{FrailPower:diff()}層の[gold]脆弱[/gold]|}を付与する。\n[gold]手札[/gold]を{Cards:diff()}枚選び、このターン中[gold]保留[/gold]を付与する。",
+  "REMIELLE-FLOATING_RADIANCE.selectionScreenPrompt": "[gold]手札[/gold]を1枚選び、このターン中[gold]保留[/gold]を付与する。",
+
+  "REMIELLE-FEATHER_BLADE.title": "羽刃",
+  "REMIELLE-FEATHER_BLADE.description": "{Damage:diff()}点ダメージを与える。{IfUpgraded:show:\n[gold]羽[/gold]を1回誘発する。|}",
+
+  "REMIELLE-FEATHERED_MURMURS.title": "天の羽根、甘い囁き",
+  "REMIELLE-FEATHERED_MURMURS.description": "{Block:diff()}[gold]ブロック[/gold]を獲得する。",
+
+  "REMIELLE-FEATHERGLOW_REBIRTH.title": "片翼の息吹",
+  "REMIELLE-FEATHERGLOW_REBIRTH.description": "{Block:diff()}点[gold]ブロック[/gold]を獲得する。\n[gold]手札[/gold]を{Cards:diff()}枚選び、このターン中[gold]保留[/gold]を付与する。",
+  "REMIELLE-FEATHERGLOW_REBIRTH.selectionScreenPrompt": "[gold]手札[/gold]を{Cards:diff()}枚選び、このターン中[gold]保留[/gold]を付与する。",
+
+  "REMIELLE-FEATHER_STRIKE.title": "飛羽打撃",
+  "REMIELLE-FEATHER_STRIKE.description": "{Damage:diff()}点ダメージを与える。\nカードを{Cards:diff()}枚引き、このカードはこのターン中[gold]保留[/gold]を獲得する。",
+
+  "REMIELLE-FALLING_DOWN.title": "墜落",
+  "REMIELLE-FALLING_DOWN.description": "{Damage:diff()}点ダメージを与える。\n{Voidflares:diff()}[gold]虚光[/gold]を消費：カードを{Cards:diff()}枚引き、[gold]手札[/gold]を1枚[gold]廃棄[/gold]する。",
+  "REMIELLE-FALLING_DOWN.selectionScreenPrompt": "[gold]手札[/gold]を{Cards:diff()}枚選び[gold]廃棄[/gold]する。",
+
+  "REMIELLE-FORGET_ME_NOT.title": "忘れじの花",
+  "REMIELLE-FORGET_ME_NOT.description": "{Energy:energyIcons()}を獲得する。\n[gold]手札[/gold]を1枚選び、[gold]保留[/gold]を付与する。",
+  "REMIELLE-FORGET_ME_NOT.selectionScreenPrompt": "[gold]手札[/gold]を1枚選び、[gold]保留[/gold]を付与する。",
+
+  "REMIELLE-FLEETING_DREAM_FOREVER_ETCHED.title": "儚い夢の刹那",
+  "REMIELLE-FLEETING_DREAM_FOREVER_ETCHED.description": "{Damage:diff()}点[purple]流明属性ダメージ[/purple]を与える。\nこのターン中にカードを引いていた場合、{Repeat:diff()}回攻撃する。",
+  "REMIELLE-FLEETING_LIGHT.title": "流光の一瞬",
+  "REMIELLE-FLEETING_LIGHT.description": "{CalculatedBlock:diff()}点[gold]ブロック[/gold]を獲得する。\n[gold]手札[/gold]1枚につき、追加で1点[gold]ブロック[/gold]を獲得する。",
+
+  "REMIELLE-FLEETING_GRACE.title": "泡沫に舞う",
+  "REMIELLE-FLEETING_GRACE.description": "{CalculatedDamage:diff()}点[purple]流明属性ダメージ[/purple]を与える。\n[blue]X[/blue]層の[gold]虚光[/gold]を消費：消費した[gold]虚光[/gold]1層につき、追加で{ExtraDamage:diff()}点ダメージを与える。\n[gold]虚光[/gold]が3層以上ある場合、追加で{ExtraDamage:diff()}点ダメージを与える。",
+
+  "REMIELLE-FLOWER_FEATHER_DANCE.title": "花と翼のロンド",
+  "REMIELLE-FLOWER_FEATHER_DANCE.description": "すべての敵に{Damage:diff()}点[purple]流明属性ダメージ[/purple]を{Repeat:diff()}回与える。\n[gold]ステップ[/gold]：{Energy:energyIcons()}を獲得する。",
+
+  "REMIELLE-GAIT.title": "歩調",
+  "REMIELLE-GAIT.description": "{Block:diff()}点[gold]ブロック[/gold]を{Repeat:diff()}回獲得する。\nカードを{Cards:diff()}枚引く。\n[gold]ステップ[/gold]：このターン中、{DexterityPower:diff()}層の[gold]敏捷[/gold]を獲得する。",
+
+  "REMIELLE-GLARE_BURST.title": "相転・耀光",
+  "REMIELLE-GLARE_BURST.description": "{Damage:diff()}点ダメージを与え、{Lumiflux:diff()}層の[gold]流明[/gold]を付与する。\n[gold]手札[/gold]に召喚する。",
+
+  "REMIELLE-HUE_CONVERGENCE.title": "相転・聚色",
+  "REMIELLE-HUE_CONVERGENCE.description": "すべての敵に{Damage:diff()}点ダメージを与える。\n[gold]相転時流[/gold]でプレイした場合、この戦闘中、追加で{Increase:diff()}点ダメージを与える。",
+
+  "REMIELLE-INTERWOVEN_DANCE_STEPS.title": "交差するステップ",
+  "REMIELLE-INTERWOVEN_DANCE_STEPS.description": "{Damage:diff()}点ダメージを与える。\nすべての敵に{Lumiflux:diff()}層の[gold]流明[/gold]を付与する。\n[gold]ステップ[/gold]：ランダムな[gold]手札[/gold]を{Cards:diff()}枚アップグレードする。",
+
+  "REMIELLE-INVITATION_TO_BLOOM.title": "芳菲の誘い",
+  "REMIELLE-INVITATION_TO_BLOOM.description": "カードを{Cards:diff()}枚プレイするごとに、{Block:diff()}点[gold]ブロック[/gold]を獲得する。",
+
+  "REMIELLE-INTO_THE_ABYSS_WITH_YOU.title": "君と共に罪淵へ",
+  "REMIELLE-INTO_THE_ABYSS_WITH_YOU.description": "任意の枚数の[gold]手札[/gold]を交換する。\nこのターン中、すべての[gold]手札[/gold]に[gold]保留[/gold]を付与する。",
+  "REMIELLE-INTO_THE_ABYSS_WITH_YOU.selectionScreenPrompt": "任意の枚数の[gold]手札[/gold]を交換する。",
+
+  "REMIELLE-JUST_LIKE_OLD_TIMES.title": "恰も往昔の如く",
+  "REMIELLE-JUST_LIKE_OLD_TIMES.description": "{Block:diff()}点[gold]ブロック[/gold]を獲得する。\n[gold]捨て札[/gold]から1枚選び[gold]手札[/gold]に加える{IfUpgraded:show:、このターン中[gold]保留[/gold]を付与する|}。",
+  "REMIELLE-JUST_LIKE_OLD_TIMES.selectionScreenPrompt": "1枚選び[gold]手札[/gold]に加える。",
+
+  "REMIELLE-KEEN_LIGHT.title": "光芒",
+  "REMIELLE-KEEN_LIGHT.description": "{Block:diff()}点[gold]ブロック[/gold]を獲得する。\n[gold]虚光[/gold]1層につき、受けるダメージが{KeenLightPower:diff()}%減少する。",
+
+  "REMIELLE-LEAP.title": "羽根のように軽く",
+  "REMIELLE-LEAP.description": "{Damage:diff()}点ダメージを与える。\n{Lumiflux:diff()}層の[gold]流明[/gold]を付与する。\n[gold]ステップ[/gold]：カードを{Cards:diff()}枚引く。",
+
+  "REMIELLE-LUMINOUS_REFLECTION.title": "鏡映",
+  "REMIELLE-LUMINOUS_REFLECTION.description": "{Damage:diff()}点ダメージを与え、[gold]記録[/gold]したカードを[gold]手札[/gold]に召喚する。\n{Voidflares:diff()}[gold]虚光[/gold]を消費：[gold]手札[/gold]を1枚[gold]アップグレード[/gold]し[gold]記録[/gold]する。",
+  "REMIELLE-LUMINOUS_REFLECTION.selectionScreenPrompt": "[gold]アタックカード[/gold]を1枚[gold]アップグレード[/gold]し[gold]記録[/gold]する。",
+
+  "REMIELLE-LINGERING_WARMTH.title": "残り火",
+  "REMIELLE-LINGERING_WARMTH.description": "{WeakPower:diff()}層の[gold]脱力[/gold]、{VulnerablePower:diff()}層の[gold]弱体[/gold]、{Lumiflux:diff()}層の[gold]流明[/gold]を付与する。",
+
+  "REMIELLE-LETTER.title": "戦術黒板",
+  "REMIELLE-LETTER.description": "自分のターン終了時、左端のカード{Cards:diff()}枚を保留する。",
+
+  "REMIELLE-LUMINIZE.title": "耀変",
+  "REMIELLE-LUMINIZE.description": "[gold]流明[/gold]を付与した時、[purple]昇華[/purple]を誘発した時、{Damage:diff()}点[purple]流明属性ダメージ[/purple]を与え、カードを1枚引く。",
+
+  "REMIELLE-MOONLIT_GAMES.title": "月夜の遊戯",
+  "REMIELLE-MOONLIT_GAMES.description": "{Damage:diff()}点[purple]流明属性ダメージ[/purple]を与える。\n{FrailPower:diff()}層の[gold]脆弱[/gold]を付与する。",
+
+  "REMIELLE-MIRRORED_SHADOW.title": "影と踊る",
+  "REMIELLE-MIRRORED_SHADOW.description": "{Damage:diff()}[purple]流明属性ダメージ[/purple]を与える。\n[gold]手札[/gold]を{Cards:diff()}枚選び、このターン中[gold]保留[/gold]を付与する。",
+  "REMIELLE-MIRRORED_SHADOW.selectionScreenPrompt": "[gold]手札[/gold]を{Cards:diff()}枚選び、このターン中[gold]保留[/gold]を付与する。",
+
+  "REMIELLE-MEMORIES_OF_THE_FORGOTTEN.title": "忘れられし者の追憶",
+  "REMIELLE-MEMORIES_OF_THE_FORGOTTEN.description": "ランダムなカードを{Cards:diff()}枚捨てる。\n[gold]捨て札[/gold]からカードを{Back:diff()}枚選び[gold]手札[/gold]に加える。このターン中にカードを1枚捨てるごとに、追加で1枚多く選ぶ。",
+  "REMIELLE-MEMORIES_OF_THE_FORGOTTEN.selectionScreenPrompt": "[gold]捨て札[/gold]からカードを{Back:diff()}枚選び[gold]手札[/gold]に加える。",
+
+  "REMIELLE-MOONLIGHT_WHISPERS.title": "月夜のささやき",
+  "REMIELLE-MOONLIGHT_WHISPERS.description": "次のターン、{Energy:energyIcons()}を獲得し、追加でカードを{Cards:diff()}枚引く。",
+
+  "REMIELLE-ODE_TO_DAWN.title": "黎明のオード",
+  "REMIELLE-ODE_TO_DAWN.description": "すべての敵に{Damage:diff()}点ダメージを与える。\n{Lumiflux:diff()}[gold]流明[/gold]を付与する。",
+
+  "REMIELLE-PLUME_SCATTER.title": "相転・羽散",
+  "REMIELLE-PLUME_SCATTER.description": "{Damage:diff()}点[purple]流明属性ダメージ[/purple]を{Repeat:diff()}回与える。",
+
+  "REMIELLE-PLUME_SEVER.title": "斬羽",
+  "REMIELLE-PLUME_SEVER.description": "{Damage:diff()}点ダメージを与える。\n[purple]昇華[/purple]を誘発した時：[gold]手札[/gold]に召喚する。",
+
+  "REMIELLE-PAST_OF_THE_PAST.title": "過去の過去",
+  "REMIELLE-PAST_OF_THE_PAST.description": "[gold]捨て札[/gold]からランダムなカードを{Cards:diff()}枚プレイする。",
+
+  "REMIELLE-PRISMATIC.title": "幻色",
+  "REMIELLE-PRISMATIC.description": "対象がこのターン中に受ける[purple]流明属性ダメージ[/purple]が{PrismaticPower:diff()}%増加する。",
+
+  "REMIELLE-PETALS_AND_SLIVER.title": "銀の彩る花と羽片",
+  "REMIELLE-PETALS_AND_SLIVER.description": "[gold]羽[/gold]の効果が全体攻撃になる。",
+
+  "REMIELLE-PROJECT_SUNSEEKER.title": "逐日計画",
+  "REMIELLE-PROJECT_SUNSEEKER.description": "任意の枚数の[gold]手札[/gold]を捨てる。\n1枚捨てるごとに、{Block:diff()}点[gold]ブロック[/gold]を1回獲得する。",
+  "REMIELLE-PROJECT_SUNSEEKER.selectionScreenPrompt": "任意の枚数の[gold]手札[/gold]を捨てる。",
+
+  "REMIELLE-REMIELLE_STRIKE.title": "ストライク",
+  "REMIELLE-REMIELLE_STRIKE.description": "{Damage:diff()}点ダメージを与える。",
+
+  "REMIELLE-REFRINGE_COEFFICIENT.title": "昇華係数",
+  "REMIELLE-REFRINGE_COEFFICIENT.description": "このターン中、{AnomalyProficiency:diff()}層の[gold]異常マスタリー[/gold]を獲得する。",
+
+  "REMIELLE-REMIELLE_DEFEND.title": "防御",
+  "REMIELLE-REMIELLE_DEFEND.description": "{Block:diff()}点[gold]ブロック[/gold]を獲得する。",
+
+  "REMIELLE-RAINBOW_END.title": "虹が立つ",
+  "REMIELLE-RAINBOW_END.description": "{Damage:diff()}点ダメージを与える。\n{Voidflares:diff()}[gold]虚光[/gold]を消費：{WeakPower:diff()}層の[gold]脱力[/gold]、{VulnerablePower:diff()}層の[gold]弱体[/gold]を付与する。",
+
+  "REMIELLE-RETREATING_LIGHT.title": "暗転",
+  "REMIELLE-RETREATING_LIGHT.description": "{Damage:diff()}点[purple]流明属性ダメージ[/purple]を{Repeat:diff()}回与える。\n同量の[gold]ブロック[/gold]を獲得する。",
+
+  "REMIELLE-RADIANT_TURN.title": "転輝",
+  "REMIELLE-RADIANT_TURN.description": "[gold]手札[/gold]の[gold]相転時流[/gold]をプレイする。",
+
+  "REMIELLE-SLIVER_OF_LIGHT.title": "薄明",
+  "REMIELLE-SLIVER_OF_LIGHT.description": "{Damage:diff()}点ダメージを与える。\n{Lumiflux:diff()}層の[gold]流明[/gold]を付与する。",
+
+  "REMIELLE-SOLO_DANCE.title": "ソロ・ピルエット",
+  "REMIELLE-SOLO_DANCE.description": "{Damage:diff()}点ダメージを与える。\n[gold]手札[/gold]を{Cards:diff()}枚捨てる。\n[gold]ステップ[/gold]：すべての敵に{Damage2:diff()}点ダメージを与える。",
+  "REMIELLE-SOLO_DANCE.selectionScreenPrompt": "[gold]手札[/gold]を{Cards:diff()}枚選び[gold]捨てる[/gold]。",
+
+  "REMIELLE-SPREAD_WINGS.title": "大空への飛翔",
+  "REMIELLE-SPREAD_WINGS.description": "カードを{Cards:diff()}枚引く。\n[gold]手札[/gold]を1枚選び、このターン中[gold]保留[/gold]を付与する。",
+  "REMIELLE-SPREAD_WINGS.selectionScreenPrompt": "[gold]手札[/gold]を{Cards:diff()}枚選び、このターン中[gold]保留[/gold]を付与する。",
+
+  "REMIELLE-SILENT_FALLEN_FEATHERS.title": "静寂の落羽",
+  "REMIELLE-SILENT_FALLEN_FEATHERS.description": "[gold]手札[/gold]を{Cards:diff()}枚選び、[gold]「羽」[/gold]キーワードを付与する。",
+  "REMIELLE-SILENT_FALLEN_FEATHERS.selectionScreenPrompt": "[gold]手札[/gold]を{Cards:diff()}枚選び、[gold]「羽」[/gold]キーワードを付与する。",
+
+  "REMIELLE-STRAY_BIRDS.title": "飛鳥集",
+  "REMIELLE-STRAY_BIRDS.description": "[gold]羽[/gold]を持つアタックカードは追加で{Attack:diff()}点ダメージを与え、スキルカードは追加で{Defend:diff()}点[gold]ブロック[/gold]を獲得する。",
+
+  "REMIELLE-SEASHADE_PAS_SEUL.title": "水鏡の独舞",
+  "REMIELLE-SEASHADE_PAS_SEUL.description": "{Block:diff()}点[gold]ブロック[/gold]を獲得する。\n{Voidflares:diff()}[gold]虚光[/gold]を獲得する。\n[gold]ステップ[/gold]：ランダムな敵に{WeakPower:diff()}層の[gold]脱力[/gold]を付与する。",
+
+  "REMIELLE-SUNSET_LIGHTHOUSE.title": "夕陽灯台",
+  "REMIELLE-SUNSET_LIGHTHOUSE.description": "対象が[red]デバフ[/red]を1種類持つごとに、{AnomalyProficiency:diff()}層の[gold]異常マスタリー[/gold]を獲得する。",
+
+  "REMIELLE-SHADOW_STASIS.title": "相転・滞影",
+  "REMIELLE-SHADOW_STASIS.description": "次に受けるダメージを1に軽減し、ダメージを与えた敵をスタンさせ、{ShadowStasisPower:diff()}点ダメージを与える。",
+
+  "REMIELLE-STANCE_SHIFT.title": "姿勢転換",
+  "REMIELLE-STANCE_SHIFT.description": "ターン終了後、[gold]保留[/gold]されたすべての[gold]手札[/gold]の次回プレイ時のコストが-1される。",
+
+  "REMIELLE-TWISTED_OBSESSION.title": "倒錯の執念",
+  "REMIELLE-TWISTED_OBSESSION.description": "最大{Cards:diff()}枚の[gold]手札[/gold]を捨て、カードを1枚引く。",
+  "REMIELLE-TWISTED_OBSESSION.selectionScreenPrompt": "最大{Cards:diff()}枚の[gold]手札[/gold]を選び捨てる。",
+
+  "REMIELLE-TURBID_PLUME.title": "乱羽",
+  "REMIELLE-TURBID_PLUME.description": "{Damage:diff()}点ダメージを与え、{CalculatedRepeat:diff()}回プレイする。\n[gold]手札[/gold]の[gold]羽[/gold]1枚につき、追加で1回プレイする。",
+
+  "REMIELLE-THE_UNREACHED_DESTINATION.title": "辿り着けなかった終点",
+  "REMIELLE-THE_UNREACHED_DESTINATION.description": "[gold]山札[/gold]からカードを1枚選び、そのカードの[gold]虚無[/gold]コピーを[gold]手札[/gold]に加える。",
+  "REMIELLE-THE_UNREACHED_DESTINATION.selectionScreenPrompt": "カードを1枚選び、そのカードの[gold]虚無[/gold]コピーを[gold]手札[/gold]に加える。",
+
+  "REMIELLE-TWO_TO_TANGO.title": "Two to Tango",
+  "REMIELLE-TWO_TO_TANGO.description": "{CalculatedDamage:diff()}点ダメージを与える。\n戦闘中に[gold]ステップ[/gold]を1回誘発するごとに、追加で{ExtraDamage:diff()}点ダメージを与える。\n[gold]ステップ[/gold]：他の[gold]手札[/gold]の[gold]ステップ[/gold]を誘発する{IfUpgraded:show:2回|}。",
+
+  "REMIELLE-THE_GHOSTS_OF_THE_OLD_WORLD.title": "旧時代の亡霊",
+  "REMIELLE-THE_GHOSTS_OF_THE_OLD_WORLD.description": "[gold]パートナー[/gold]が[gold]相転時流[/gold]を獲得する{IfUpgraded:show:。ターン終了後、[gold]手札[/gold]に[gold]保留[/gold]された[gold]ステップ[/gold]を誘発する|}。",
+
+  "REMIELLE-THAUMIEL.title": "タウミエル",
+  "REMIELLE-THAUMIEL.description": "ランダムな敵に{Damage:diff()}点ダメージを与える。\n毎ターン最初に[gold]相転時流[/gold]をプレイした時、自動的にプレイする。",
+
+  "REMIELLE-THIS_IS_HOW_I_AM.title": "吾は本かくの如し",
+  "REMIELLE-THIS_IS_HOW_I_AM.description": "このターン中、[purple]流明属性ダメージ[/purple]を与えた時、{Block:diff()}点[gold]ブロック[/gold]を獲得する。",
+
+  "REMIELLE-TEMPORAL_LUMIFLUX.title": "虚狩・時隙流明",
+  "REMIELLE-TEMPORAL_LUMIFLUX.description": "自分のターン開始時、すべての敵に{Apply:diff()}層の[gold]弱体[/gold]または[gold]脆弱[/gold]を付与する。",
+
+  "REMIELLE-UNCHOSEN_FUTURE.title": "選ばれざる未来",
+  "REMIELLE-UNCHOSEN_FUTURE.description": "{CalculatedDamage:diff()}点ダメージを与える。\n[gold]手札[/gold]の[gold]キーワード[/gold]1つにつき、追加で{ExtraDamage:diff()}点ダメージを与える。",
+
+  "REMIELLE-SUMMER_GIFT.title": "夏の贈り物",
+  "REMIELLE-SUMMER_GIFT.description": "このターン中、味方1人の手札を[gold]保留[/gold]する。\n{Block:diff()}点[gold]ブロック[/gold]を付与する。",
+
+  "REMIELLE-IDLE_ARCADE_MACHINE.title": "放置アーケード",
+  "REMIELLE-IDLE_ARCADE_MACHINE.description": "{IfUpgraded:show:自分と|味方1人が}次のターン開始時に{Energy:energyIcons()}を獲得し、追加でカードを{Cards:diff()}枚引く。",
+
+  "REMIELLE-LEGENDARY_MISUNDERSTANDING_MAGENT.title": "伝説級の誤解体質",
+  "REMIELLE-LEGENDARY_MISUNDERSTANDING_MAGENT.description": "他のプレイヤーがデバフを獲得した時、それを自分に転移させる。\nターン開始時、ランダムにデバフを1層減少させる。",
+
+  "REMIELLE-GOOD_MORNING_DEAR_PARTNER_IN_CRIME.title": "おはよう、共犯者さん",
+  "REMIELLE-GOOD_MORNING_DEAR_PARTNER_IN_CRIME.description": "プレイヤーを1人選ぶ。このターン中、双方が行動によって[gold]ブロック[/gold]を獲得した時、相手にも同量の[gold]ブロック[/gold]を与える。"
+}

@@ -1,0 +1,13 @@
+{
+  "REMIELLE-REFRINGE.title": "昇華（属性異常）",
+  "REMIELLE-REFRINGE.description": "[purple]異常ダメージ[/purple]を4点与え、[purple]異常[/purple]を誘発したデバフを1層増加させる。",
+
+  "REMIELLE-PHASEFLOW.title": "相変時流",
+  "REMIELLE-PHASEFLOW.description": "自分のターン終了後、このカードがまだ[gold]手札[/gold]にある場合、自動的にプレイされる。",
+
+  "REMIELLE-DANCESTEP.title": "舞踏",
+  "REMIELLE-DANCESTEP.description": "[gold]手札[/gold]に加わるたび、[gold]舞踏[/gold]を誘発する。",
+
+  "REMIELLE-FEATHER.title": "羽",
+  "REMIELLE-FEATHER.description": "プレイした時、ランダムな敵に2点ダメージを与える。このターン中、[gold]羽[/gold]を1枚プレイするごとに、ダメージ+1。"
+}

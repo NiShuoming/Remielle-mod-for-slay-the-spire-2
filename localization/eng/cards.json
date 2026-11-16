@@ -21,7 +21,7 @@
   "REMIELLE-BED.description": "Gain {Energy:energyIcons()}, {Voidflares:diff()} [gold]Voidflare[/gold], and {AnomalyProficiency:diff()} [gold]Anomaly Proficiency[/gold].\nDraw {Cards:diff()} {Cards:plural:card|cards}.",
 
   "REMIELLE-BLADE_RADIANCE.title": "Blade Radiance",
-  "REMIELLE-BLADE_RADIANCE.description": "At the start of your turn, consume {Voidflares:diff()} [gold]Voidflare[/gold] and gain {Energy:energyIcons()}.",
+  "REMIELLE-BLADE_RADIANCE.description": "At the start of your turn, consume {Voidflares:diff()} [gold]Voidflare[/gold], gain {Energy:energyIcons()} and Draw {Cards:diff()} card.",
 
   "REMIELLE-DANCE_INVITATION.title": "Dance Invitation",
   "REMIELLE-DANCE_INVITATION.description": "Gain {Block:diff()} [gold]Block[/gold].\nApply {WeakPower:diff()} [gold]Weak[/gold].\n[gold]Dance Step:[/gold] Gain {Extra:diff()} [gold]Block[/gold].",

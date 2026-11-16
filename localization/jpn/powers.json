@@ -1,0 +1,105 @@
+{
+  "ACCOMPLICE1_POWER.title": "一番の共犯者",
+  "ACCOMPLICE1_POWER.description": "[gold]手札[/gold]に[gold]パートナー[/gold]カードが1枚加わるたび、[gold]ブロック[/gold]を獲得する。",
+  "ACCOMPLICE1_POWER.smartDescription": "[gold]手札[/gold]に[gold]パートナー[/gold]カードが1枚加わるたび、{Amount}点[gold]ブロック[/gold]を獲得する。",
+
+  "ADORABLE_ORIGINS_POWER.title": "愛らしき誕生",
+  "ADORABLE_ORIGINS_POWER.description": "毎ターン最初の数回の[gold]ステップ[/gold]が2回誘発する。",
+  "ADORABLE_ORIGINS_POWER.smartDescription": "毎ターン最初の{Amount}回の[gold]ステップ[/gold]が2回誘発する。",
+
+  "A_DREAM_OF_A_HUNDRED_YEARS_POWER.title": "百年の夢",
+  "A_DREAM_OF_A_HUNDRED_YEARS_POWER.description": "[gold]虚光[/gold]を獲得または消費した時、カードを引く。",
+  "A_DREAM_OF_A_HUNDRED_YEARS_POWER.smartDescription": "[gold]虚光[/gold]を獲得または消費した時、カードを{Amount}枚引く。",
+
+  "BLADE_RADIANCE_POWER.title": "研鑽せし剣の反照",
+  "BLADE_RADIANCE_POWER.description": "ターン開始時、[gold]虚光[/gold]を消費し、エネルギーを獲得する。",
+  "BLADE_RADIANCE_POWER.smartDescription": "ターン開始時、[gold]虚光[/gold]を消費し、{Amount}エネルギーを獲得する、カードを{Cards:diff()}枚引く。",
+
+  "DANCE_TOGETHER_POWER.title": "共舞",
+  "DANCE_TOGETHER_POWER.description": "次のアタックカードまたはスキルカードが追加で複数回プレイされる。",
+  "DANCE_TOGETHER_POWER.smartDescription": "次のアタックカードまたはスキルカードが追加で{Amount}回プレイされる。",
+
+  "ENCHAINER_TRANSFORMATION_POWER.title": "結使化",
+  "ENCHAINER_TRANSFORMATION_POWER.description": "状態異常カードと呪いカードが[gold]捨て札[/gold]に置かれた時、それらを[gold]廃棄[/gold]する。",
+  "ENCHAINER_TRANSFORMATION_POWER.smartDescription": "状態異常カードと呪いカードが[gold]捨て札[/gold]に置かれた時、それらを[gold]廃棄[/gold]する。",
+
+  "GAIT_POWER.title": "歩調",
+  "GAIT_POWER.description": "このターン中、[gold]敏捷[/gold]を獲得する。",
+  "GAIT_POWER.smartDescription": "このターン中、{Amount}層の[gold]敏捷[/gold]を獲得する。",
+
+  "INVITATION_TO_BLOOM_POWER.title": "芳菲の誘い",
+  "INVITATION_TO_BLOOM_POWER.description": "カードを3枚プレイするごとに、4点[gold]ブロック[/gold]を獲得する。",
+  "INVITATION_TO_BLOOM_POWER.smartDescription": "カードを3枚プレイするごとに、4点[gold]ブロック[/gold]を獲得する。",
+
+  "KEEN_LIGHT_POWER.title": "光芒",
+  "KEEN_LIGHT_POWER.description": "[gold]虚光[/gold]1層につき、受けるダメージが減少する。",
+  "KEEN_LIGHT_POWER.smartDescription": "[gold]虚光[/gold]1層につき、受けるダメージが{Amount}%減少する。",
+
+  "LETTER_POWER.title": "戦術黒板",
+  "LETTER_POWER.description": "自分のターン終了時、左端のカードを保留する。",
+  "LETTER_POWER.smartDescription": "自分のターン終了時、左端のカードを{Amount}枚保留する。",
+
+  "LUMIFLUX.title": "流明",
+  "LUMIFLUX.description": "[red]デバフ[/red]を獲得した時、[purple]昇華[/purple]を誘発する。",
+  "LUMIFLUX.smartDescription": "[red]デバフ[/red]を獲得した時、[purple]昇華[/purple]を誘発する。",
+
+  "LUMINIZE_POWER.title": "耀変",
+  "LUMINIZE_POWER.description": "[gold]流明[/gold]を付与した時、[purple]昇華[/purple]を誘発した時、[purple]流明属性ダメージ[/purple]を与える。",
+  "LUMINIZE_POWER.smartDescription": "[gold]流明[/gold]を付与した時、[purple]昇華[/purple]を誘発した時、{Amount}点[purple]流明属性ダメージ[/purple]を与える。",
+
+  "PETALS_AND_SLIVER_POWER.title": "銀の彩る花と羽片",
+  "PETALS_AND_SLIVER_POWER.description": "[gold]羽[/gold]の効果が全体攻撃になる。",
+  "PETALS_AND_SLIVER_POWER.smartDescription": "[gold]羽[/gold]の効果が全体攻撃になる。",
+
+  "PRISMATIC_POWER.title": "幻色",
+  "PRISMATIC_POWER.description": "このターン中に受ける[purple]流明属性ダメージ[/purple]が増加する。",
+  "PRISMATIC_POWER.smartDescription": "このターン中に受ける[purple]流明属性ダメージ[/purple]が{Amount}%増加する。",
+
+  "SHADOW_STASIS_POWER.title": "相転・滞影",
+  "SHADOW_STASIS_POWER.description": "次に受けるダメージを1に軽減し、ダメージを与えた敵をスタンさせ、ダメージを与える。",
+  "SHADOW_STASIS_POWER.smartDescription": "次に受けるダメージを1に軽減し、ダメージを与えた敵をスタンさせ、{Amount}点ダメージを与える。",
+
+  "STANCE_SHIFT_POWER.title": "姿勢転換",
+  "STANCE_SHIFT_POWER.description": "ターン終了後、[gold]保留[/gold]されたすべての[gold]手札[/gold]の次回プレイ時のコストが-1される。",
+  "STANCE_SHIFT_POWER.smartDescription": "ターン終了後、[gold]保留[/gold]されたすべての[gold]手札[/gold]の次回プレイ時のコストが-1される。",
+
+  "STRAY_BIRDS_A_POWER.title": "飛鳥集A",
+  "STRAY_BIRDS_A_POWER.description": "[gold]羽[/gold]を持つアタックカードが追加でダメージを与える。",
+  "STRAY_BIRDS_A_POWER.smartDescription": "[gold]羽[/gold]を持つアタックカードが追加で{Amount}点ダメージを与える。",
+
+  "STRAY_BIRDS_D_POWER.title": "飛鳥集D",
+  "STRAY_BIRDS_D_POWER.description": "[gold]羽[/gold]を持つスキルカードが追加で[gold]ブロック[/gold]を獲得する。",
+  "STRAY_BIRDS_D_POWER.smartDescription": "[gold]羽[/gold]を持つスキルカードが追加で{Amount}点[gold]ブロック[/gold]を獲得する。",
+
+  "TEMPORAL_LUMIFLUX_POWER.title": "虚狩・時隙流明",
+  "TEMPORAL_LUMIFLUX_POWER.description": "自分のターン開始時、すべての敵に1層の[gold]弱体[/gold]または[gold]脆弱[/gold]を付与する。",
+  "TEMPORAL_LUMIFLUX_POWER.smartDescription": "自分のターン開始時、すべての敵に{Amount}層の[gold]弱体[/gold]または[gold]脆弱[/gold]を付与する。",
+
+  "THE_GHOSTS_POWER.title": "旧時代の亡霊p",
+  "THE_GHOSTS_POWER.description": "[gold]パートナー[/gold]が[gold]相転時流[/gold]を獲得する。",
+  "THE_GHOSTS_POWER.smartDescription": "[gold]パートナー[/gold]が[gold]相転時流[/gold]を獲得する。",
+
+  "THE_OLD_WORLD_POWER.title": "旧時代の亡霊d",
+  "THE_OLD_WORLD_POWER.description": "ターン終了後、[gold]手札[/gold]に[gold]保留[/gold]された[gold]ステップ[/gold]を誘発する。",
+  "THE_OLD_WORLD_POWER.smartDescription": "ターン終了後、[gold]手札[/gold]に[gold]保留[/gold]された[gold]ステップ[/gold]を誘発する。",
+
+  "THIS_IS_HOW_I_AM_POWER.title": "吾は本かくの如し",
+  "THIS_IS_HOW_I_AM_POWER.description": "このターン中、[purple]流明属性ダメージ[/purple]を与えた時、[gold]ブロック[/gold]を獲得する。",
+  "THIS_IS_HOW_I_AM_POWER.smartDescription": "このターン中、[purple]流明属性ダメージ[/purple]を与えた時、{Amount}点[gold]ブロック[/gold]を獲得する。",
+
+  "VOIDFLARES.title": "虚光",
+  "VOIDFLARES.description": "1[gold]虚光[/gold]を獲得した時、1[gold]異常マスタリー[/gold]を獲得する。逆もまた然り。",
+  "VOIDFLARES.smartDescription": "1[gold]虚光[/gold]を獲得した時、1[gold]異常マスタリー[/gold]を獲得する。逆もまた然り。",
+
+  "GOOD_MORNING_POWER.title": "おはよう、共犯者さん",
+  "GOOD_MORNING_POWER.description": "行動によって[gold]ブロック[/gold]を獲得した時、バフの付与者にも同量の[gold]ブロック[/gold]を与える。",
+  "GOOD_MORNING_POWER.smartDescription": "行動によって[gold]ブロック[/gold]を獲得した時、バフの付与者にも同量の[gold]ブロック[/gold]を与える。",
+
+  "LEGENDARY_M_P.title": "伝説級の誤解体質",
+  "LEGENDARY_M_P.description": "他のプレイヤーがデバフを獲得した時、それを自分に転移させる。毎ターンランダムにデバフを減少させる。",
+  "LEGENDARY_M_P.smartDescription": "他のプレイヤーがデバフを獲得した時、それを自分に転移させる。毎ターンランダムにデバフを{Amount}層減少させる。",
+
+  "MORNING_MILK_TEA_POWER.title": "おはようミルクティー",
+  "MORNING_MILK_TEA_POWER.description": "次のターン開始時、追加でカードを引く。",
+  "MORNING_MILK_TEA_POWER.smartDescription": "次のターン開始時、追加でカードを{Cards}枚引く。"
+}

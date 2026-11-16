@@ -12,8 +12,8 @@
   "A_DREAM_OF_A_HUNDRED_YEARS_POWER.smartDescription": "Whenever you gain or consume [gold]Voidflare[/gold], draw {Amount} card.",
 
   "BLADE_RADIANCE_POWER.title": "Blade Radiance",
-  "BLADE_RADIANCE_POWER.description": "At the start of your turn, consume [gold]Voidflare[/gold] and gain Energy.",
-  "BLADE_RADIANCE_POWER.smartDescription": "At the start of your turn, consume {Amount} [gold]Voidflare[/gold] and gain {Amount} Energy.",
+  "BLADE_RADIANCE_POWER.description": "At the start of your turn, consume [gold]Voidflare[/gold], gain Energy and draw card.",
+  "BLADE_RADIANCE_POWER.smartDescription": "At the start of your turn, consume {Amount} [gold]Voidflare[/gold], gain {Amount} Energy and draw {Amount} card.",
 
   "DANCE_TOGETHER_POWER.title": "Dance Together",
   "DANCE_TOGETHER_POWER.description": "Your next Attack or Skill card play additional times.",

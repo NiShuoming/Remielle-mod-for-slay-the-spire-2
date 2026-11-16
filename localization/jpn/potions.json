@@ -1,0 +1,12 @@
+{
+  "REMIELLE-FEATHER_POTION.title": "羽翼のポーション",
+  "REMIELLE-FEATHER_POTION.description": "[gold]手札[/gold]を1枚選び、そのカードの[gold]虚無[/gold]コピーを{Cards}枚[gold]手札[/gold]に加える。",
+  "REMIELLE-FEATHER_POTION.selectionScreenPrompt": "カードを1枚選び、そのカードの[gold]虚無[/gold]コピーを2枚[gold]手札[/gold]に加える。",
+
+  "REMIELLE-MORNING_MILK_TEA.title": "おはようミルクティー",
+  "REMIELLE-MORNING_MILK_TEA.description": "カードを{Cards}枚引く。次の{Turn}ターン開始時、追加でカードを{Cards}枚引く。",
+
+  "REMIELLE-PHASE_FLOW_SERUM.title": "相転のポーション",
+  "REMIELLE-PHASE_FLOW_SERUM.description": "[gold]手札[/gold]を1枚選び、[gold]保留[/gold]を付与する。",
+  "REMIELLE-PHASE_FLOW_SERUM.selectionScreenPrompt": "カードを1枚選び、[gold]保留[/gold]を付与する。"
+}

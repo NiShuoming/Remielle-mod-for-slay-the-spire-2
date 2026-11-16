@@ -12,8 +12,8 @@
   "A_DREAM_OF_A_HUNDRED_YEARS_POWER.smartDescription": "获得和消耗[gold]虚耀[/gold]时，抽{Amount}张牌。",
 
   "BLADE_RADIANCE_POWER.title": "淬锋映曜",
-  "BLADE_RADIANCE_POWER.description": "回合开始时，消耗[gold]虚耀[/gold]，获得能量。",
-  "BLADE_RADIANCE_POWER.smartDescription": "回合开始时，消耗[gold]虚耀[/gold]，获得{Amount}能量。",
+  "BLADE_RADIANCE_POWER.description": "回合开始时，消耗[gold]虚耀[/gold]，获得能量，抽牌。",
+  "BLADE_RADIANCE_POWER.smartDescription": "回合开始时，消耗[gold]虚耀[/gold]，获得{Amount}能量，抽{Amount}张牌。",
 
   "DANCE_TOGETHER_POWER.title": "共舞",
   "DANCE_TOGETHER_POWER.description": "下一张攻击牌或技能牌会多打出多次",
